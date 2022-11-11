@@ -243,7 +243,7 @@ def admin_add_random_flight():
     airliner_code = random.choice(airliners)['code']
     id = airliner_code + \
         join([str(random.randint(0, 9)) for _ in range(4)], sep='')
-    departure_on = datetime.datetime(2000 + random.randint(0, 99), random.randint(1, 12), random.randint(
+    departure_on = datetime.datetime(2022, random.randint(1, 12), random.randint(
         1, 31), random.randint(0, 23), random.randint(0, 5)*10).strftime(f'%Y-%m-%d %H:%M:00')
     departure_airport_code = random.choice(airports)['code']
     stops = ''
@@ -307,28 +307,31 @@ def find_flights():
     arrival_airport_code = None
 
     for i in airports:
-        if i['location'].lower() == from_location.lower():
+        if from_location.lower() == i['city'].lower():
             departure_airport_code = i['code']
-        if i['location'].lower() == to_location.lower():
+        if to_location.lower() == i['city'].lower():
             arrival_airport_code = i['code']
 
     now = datetime.datetime.now()
     from_date = input_colored('From: ', default=now.strftime('%Y-%m-%d'))
-    now.replace(day=now.day+1)
-    to_date = input_colored('To: ', default=now.strftime('%Y-%m-%d'))
-    mscur.execute(
-        f'select * from flight where {"departure_airport_code = "+departure_airport_code+" and " if departure_airport_code else ""}{"arrival_airport_code = "+arrival_airport_code+" and " if arrival_airport_code else ""}departure_on between "{"2000-01-01" if from_date=="-" else from_date}" and "{"2099-12-31" if to_date=="-" else to_date}"')
+    to_date = input_colored('To: ', default=now.replace(
+        month=now.month+1).strftime('%Y-%m-%d'))
+    query_departure_airport_code = f'departure_airport_code = "{departure_airport_code}" and ' if departure_airport_code else ''
+    query_arrival_airport_code = f'arrival_airport_code = "{arrival_airport_code}" and ' if arrival_airport_code else ''
+    query = f'select * from flight where {query_departure_airport_code}{query_arrival_airport_code}departure_on between "{"2022-01-01" if from_date=="-" else from_date}" and "{"2022-12-31" if to_date=="-" else to_date}"'
+    mscur.execute(query)
+    print(query)
     flights = mscur.fetchall()
     for i in flights:
         for j in airports:
             if 'departure_airport_code' in i and j['code'] == i['departure_airport_code']:
                 del i['departure_airport_code']
                 i['departure_airport'] = j['name']
-                i['departure_location'] = j['location']
+                i['departure_location'] = f"{j['city']}, {j['region']}"
             if 'arrival_airport_code' in i and j['code'] == i['arrival_airport_code']:
                 del i['arrival_airport_code']
                 i['arrival_airport'] = j['name']
-                i['arrival_location'] = j['location']
+                i['arrival_location'] = f"{j['city']}, {j['region']}"
     for i in flights:
         content = f'''
 Flight {{}}, {get_airliner_from_airliner_code(i["airliner_code"])}
@@ -337,6 +340,39 @@ To {{}},{i["arrival_airport"]}
 Duration {str(datetime.timedelta(hours=i['duration'])).split(':')[0]}h{str(datetime.timedelta(hours=i['duration'])).split(':')[1]}m.'''
         print_colored(content, data=[['a', i["id"]], ['a', i["departure_location"]], [
                       'a', i["departure_on"].strftime('%Y-%m-%d %H:%M:%S')], ['a', i["arrival_location"]]])
+
+
+def get_fares():
+    flight_id = input_colored('Flight Id: ')
+    if not flight_id:
+        return
+
+    mscur.execute(f'select * from fare where flight_id = "{flight_id}"')
+    fares = mscur.fetchall()
+
+    min_amount = min([i['amount'] for i in fares])
+    max_amount = max([i['amount'] for i in fares])
+
+    print_colored('Fares for flight {}:', data=[['a', flight_id]])
+    for i in fares:
+        content = f'''
+{{}}
+{i['description'].capitalize()}.
+Cabin Bag Weight: {i['max_cabin_bag_weight']}
+Baggage Weight: {i['max_baggage_weight']}
+Rs {{}} {'--> BEST PRICE' if i["amount"] == min_amount else ""}'''
+        print_colored(content, data=[['a', i["tag"].title()], [
+                      's' if i["amount"] == min_amount else 'e' if i["amount"] == max_amount else 'w', str(i["amount"])]])
+
+
+def admin_add_random_flight_repeat():
+    for _ in range(int(input_colored('Number of records: '))):
+        admin_add_random_flight()
+
+
+def admin_add_random_fare_repeat():
+    for _ in range(int(input_colored('Number of records: '))):
+        admin_add_random_fare()
 
 
 def settings():
@@ -350,9 +386,12 @@ commands = {
     'signup': sign_up,
     'signout': sign_out,
     'find flights': find_flights,
+    'get fares': get_fares,
     'admin add': admin_add,
     'admin add random flight': admin_add_random_flight,
     'admin add random fare': admin_add_random_fare,
+    'admin add random flight repeat': admin_add_random_flight_repeat,
+    'admin add random fare repeat': admin_add_random_fare_repeat,
     'admin view': admin_view,
     'settings view': view_settings,
 }
