@@ -1,0 +1,3 @@
+pip install mysql.connector
+pip install colorama
+pip install tabulate
