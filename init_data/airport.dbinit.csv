@@ -29,7 +29,6 @@ ADE,Aden Intl,Aden,Yemen
 SOC,Adi Sumarmo Wiryokusumo,Solo City,Indonesia
 JOG,Adi Sutjipto,Yogyakarta,Indonesia
 SLK,Adirondack Regional Airport,Saranac Lake,United States
-ADF,Adiyaman Airport,\N,Turkey
 ADB,Adnan Menderes,Izmir,Turkey
 AEP,Aeroparque Jorge Newbery,Buenos Aires,Argentina
 BPS,Aeroporto de Porto Seguro,Porto Seguro,Brazil
@@ -40,11 +39,9 @@ IXA,Agartala,Agartala,India
 AGX,Agatti,Agatti Island,India
 AGZ,Aggeneys,Aggeneys,South Africa
 AGR,Agra,Agra,India
-AJI,Agri Airport,\N,Turkey
 AGQ,Agrinion,Agrinion,Greece
 OCV,Aguas Claras,Ocana,Colombia
 AGJ,Aguni,Aguni,Japan
-AHE,Ahe Airport,\N,French Polynesia
 AMD,Ahmedabad,Ahmedabad,India
 AHS,Ahuas Airport,Ahuas,Honduras
 AWZ,Ahwaz,Ahwaz,Iran
@@ -68,12 +65,9 @@ SCO,Aktau,Aktau,Kazakhstan
 PVK,Aktio,Preveza,Greece
 AKX,Aktyubinsk,Aktyubinsk,Kazakhstan
 AKV,Akulivik Airport,Akulivik,Canada
-QCU,Akunnaaq Heliport,\N,Greenland
 AEY,Akureyri,Akureyri,Iceland
 KQA,Akutan Seaplane Base,Akutan,United States
-HOF,Al Ahsa Airport,\N,Saudi Arabia
 LEA,Al Ahsa,Al-ahsa,Saudi Arabia
-AAN,Al Ain International Airport,\N,United Arab Emirates
 ABT,Al Baha,El-baha,Saudi Arabia
 AAY,Al Ghaidah Intl,Al Ghaidah Intl,Yemen
 AJO,Al Jouf,Al-jouf,Saudi Arabia
@@ -120,7 +114,6 @@ CTD,Alonso Valderrama Airport,ChitrÃ©,Panama
 APN,Alpena County Regional Airport,Alpena,United States
 AFL,Alta Floresta,Alta Floresta,Brazil
 ALF,Alta,Alta,Norway
-LTI,Altai Airport,\N,Mongolia
 ATM,Altamira,Altamira,Brazil
 AOC,Altenburg Nobitz,Altenburg,Germany
 AOO,Altoona Blair Co,Altoona,United States
@@ -192,10 +185,8 @@ AQA,Araraquara,Araracuara,Brazil
 GPA,Araxos,Patras,Greece
 AMH,Arba Minch,Arba Minch,Ethiopia
 ACV,Arcata,Arcata CA,United States
-ADU,Ardabil Airport,\N,Iran
 OBS,Ardeche Meridionale,Aubenas-vals-lanas,France
 ADM,Ardmore Muni,Ardmore,United States
-GYL,Argyle Airport,\N,Australia
 KSO,Aristotelis,Kastoria,Greece
 BYH,Arkansas Intl,Blytheville,United States
 ARN,Arlanda,Stockholm,Sweden
@@ -209,13 +200,11 @@ ZCA,Arnsberg Menden,Arnsberg,Germany
 MOL,Aro,Molde,Norway
 DIE,Arrachart,Antsiranana,Madagascar
 X21,Arthur Dunn Airpark,Titusville,United States
-ATC,Arthurs Town Airport,\N,Bahamas
 SCL,Arturo Merino Benitez Intl,Santiago,Chile
 VLN,Arturo Michelena Intl,Valencia,Venezuela
 RUA,Arua Airport,Arua,Uganda
 ARK,Arusha,Arusha,Tanzania
 AXR,Arutua,Arutua,French Polynesia
-AVK,Arvaikheer Airport,\N,Mongolia
 YEK,Arviat,Eskimo Point,Canada
 AJR,Arvidsjaur,Arvidsjaur,Sweden
 AKJ,Asahikawa,Asahikawa,Japan
@@ -229,7 +218,6 @@ ASF,Astrakhan,Astrakhan,Russia
 OVD,Asturias,Aviles,Spain
 JTY,Astypalaia,Astypalaia,Greece
 ASW,Aswan Intl,Aswan,Egypt
-ATZ,Asyut International Airport,\N,Egypt
 AXK,Ataq,Ataq,Yemen
 ATR,Atar,Atar,Mauritania
 IST,Ataturk,Istanbul,Turkey
@@ -251,7 +239,6 @@ AUL,Aur Island Airport,Aur Atoll,Marshall Islands
 IXU,Aurangabad,Aurangabad,India
 BBU,Aurel Vlaicu,Bucharest,Romania
 AUR,Aurillac,Aurillac,France
-AUU,Aurukun Airport,\N,Australia
 AUS,Austin Bergstrom Intl,Austin,United States
 GRB,Austin Straubel Intl,Green Bay,United States
 CFE,Auvergne,Clermont Ferrand,France
@@ -270,7 +257,6 @@ BCM,Bacau,Bacau,Romania
 BCO,Baco Airport,Baco,Ethiopia
 BCD,Bacolod,Bacolod,Philippines
 FKB,Baden Airpark,Karlsruhe-Baden,Germany
-BDD,Badu Island Airport,\N,Australia
 BFX,Bafoussam,Bafoussam,Cameroon
 NYU,Bagan Intl,Nyuang U,Burma
 BPE,Bagan,Bagan,Burma
@@ -287,7 +273,6 @@ YBC,Baie Comeau,Baie Comeau,Canada
 LZH,Bailian Airport,Liuzhou,China
 BBR,Baillif Airport,Basse Terre,Guadeloupe
 VMU,Baimuru Airport,Baimuru,Papua New Guinea
-HET,Baita Airport,\N,China
 CAN,Baiyun Intl,Guangzhou,China
 BJH,Bajhang,Bajhang,Nepal
 BKM,Bakalalan Airport,Bakalalan,Malaysia
@@ -298,17 +283,14 @@ CEK,Balandino,Chelyabinsk,Russia
 MLH,Bale Mulhouse,Mulhouse,France
 DPS,Bali Ngurah Rai,Denpasar,Indonesia
 KRK,Balice,Krakow,Poland
-EDO,Balikesir Korfez Airport,\N,Turkey
 BZI,Balikesir,Balikesir,Turkey
 OPU,Balimo Airport,Balimo,Papua New Guinea
 BAS,Ballalae Airport,Ballalae,Solomon Islands
 BNK,Ballina Byron Gateway,Ballina Byron Bay,Australia
 BBA,Balmaceda,Balmaceda,Chile
 BWI,Baltimore Washington Intl,Baltimore,United States
-BXR,Bam Airport,\N,Iran
 ABM,Bamaga Injinoo,Amberley,Australia
 BPC,Bamenda,Bamenda,Cameroon
-OUI,Ban Huoeisay Airport,\N,Laos
 LKL,Banak,Banak,Norway
 BND,Bandar Abbass Intl,Bandar Abbas,Iran
 BDH,Bandar Lengeh,Bandar Lengeh,Iran
@@ -329,7 +311,6 @@ MGN,Baracoa,Magangue,Colombia
 MAD,Barajas,Madrid,Spain
 BEJ,Barau(Kalimaru) Airport,Tanjung Redep-Borneo Island,Indonesia
 QYR,Barberey,Troyes,France
-BCI,Barcaldine Airport,\N,Australia
 BCN,Barcelona,Barcelona,Spain
 BDU,Bardufoss,Bardufoss,Norway
 BRI,Bari,Bari,Italy
@@ -349,7 +330,6 @@ CAW,Bartolomeu Lisandro,Campos,Brazil
 HLJ,Barysiai,Barysiai,Lithuania
 KRZ,Basango Mboliasa Airport,Kiri,Congo (Kinshasa)
 BSU,Basankusu Airport,Basankusu,Congo (Kinshasa)
-BSO,Basco Airport,\N,Philippines
 SSZ,Base Aerea De Santos,Santos,Brazil
 BSR,Basrah Intl,Basrah,Iraq
 MEK,Bassatine,Meknes,Morocco
@@ -357,10 +337,8 @@ LTK,Bassel Al Assad Intl,Latakia,Syria
 PGX,Bassillac,Perigueux,France
 BSG,Bata,Bata,Equatorial Guinea
 AZI,Bateen,Abu Dhabi,United Arab Emirates
-BHS,Bathurst Airport,\N,Australia
 ZBF,Bathurst Airport,Bathurst,Canada
 BAL,Batman,Batman,Turkey
-BLJ,Batna Airport,\N,Algeria
 BTR,Baton Rouge Metro Ryan Fld,Baton Rouge,United States
 BJF,Batsfjord,Batsfjord,Norway
 BBM,Battambang Airport,Battambang,Cambodia
@@ -368,13 +346,11 @@ BUS,Batumi,Batumi,Georgia
 BDE,Baudette Intl,Baudette,United States
 BAU,Bauru,Bauru,Brazil
 BBJ,Bautzen,Bautzen,Germany
-BYN,Bayankhongor Airport,\N,Mongolia
 BYU,Bayreuth,Bayreuth,Germany
 BAB,Beale Afb,Marysville,United States
 XBE,Bearskin Lake Airport,Bearskin Lake,Canada
 NBC,Beaufort Mcas,Beaufort,United States
 DRI,Beauregard Rgnl,Deridder,United States
-BEU,Bedourie Airport,\N,Australia
 BEI,Beica Airport,Beica,Ethiopia
 MZW,Beigan,Matsu,Taiwan
 BHY,Beihai Airport,Beihai,China
@@ -433,7 +409,6 @@ GNS,Binaka,Gunung Sitoli,Indonesia
 TSN,Binhai,Tianjin,China
 BTU,Bintulu,Bintulu,Malaysia
 BIR,Biratnagar,Biratnagar,Nepal
-BVI,Birdsville Airport,\N,Australia
 XBJ,Birjand,Birjand,Iran
 BHM,Birmingham Intl,Birmingham,United States
 BHX,Birmingham,Birmingham,United Kingdom
@@ -449,7 +424,6 @@ ZUN,Black Rock,Zuni Pueblo,United States
 BKQ,Blackall,Blackall,Australia
 BBS,Blackbushe,Blackbushe,United Kingdom
 BLK,Blackpool,Blackpool,United Kingdom
-BLT,Blackwater Airport,\N,Australia
 TLS,Blagnac,Toulouse,France
 BFN,Bloemfontein Intl,Bloemfontein,South Africa
 LEX,Blue Grass,Lexington KY,United States
@@ -466,7 +440,6 @@ PMO,Boccadifalco,Palermo,Italy
 BOO,Bodo,Bodoe,Norway
 BJV,Bodrum - Milas,Bodrum,Turkey
 BFI,Boeing Fld King Co Intl,Seattle,United States
-GIC,Boigu Airport,\N,Australia
 BOI,Boise Air Terminal,Boise,United States
 BJB,Bojnourd Airport,Bojnourd,Iran
 BUI,Bokondini Airport,Bokondini-Papua Island,Indonesia
@@ -490,9 +463,7 @@ BSA,Bosaso Airport,Bosaso,Somalia
 OCJ,Boscobel,Ocho Rios,Jamaica
 TID,Bou Chekif,Tiaret,Algeria
 BYK,Bouake,Bouake,Cote d'Ivoire
-BQL,Boulia Airport,\N,Australia
 BOU,Bourges,Bourges,France
-BRK,Bourke Airport,\N,Australia
 BOH,Bournemouth,Bournemouth,United Kingdom
 EBU,Boutheon,St.-etienne,France
 HQM,Bowerman Field,Hoquiam,United States
@@ -515,7 +486,6 @@ BNE,Brisbane Intl,Brisbane,Australia
 FZO,Bristol Filton,Bristol,United Kingdom
 BRS,Bristol,Bristol,United Kingdom
 BZZ,Brize Norton,Brize Norton,United Kingdom
-BHQ,Broken Hill Airport,\N,Australia
 BMA,Bromma,Stockholm,Sweden
 LYN,Bron,Lyon,France
 BNN,Bronnoy,Bronnoysund,Norway
@@ -542,12 +512,10 @@ BHK,Bukhara,Bukhara,Uzbekistan
 BKZ,Bukoba Airport,Bukoba,Tanzania
 BDB,Bundaberg,Bundaberg,Australia
 BUX,Bunia,Bunia,Congo (Kinshasa)
-BMV,Buon Ma Thuot Airport,\N,Vietnam
 BUO,Burao Airport,Burao,Somalia
 BOJ,Burgas,Bourgas,Bulgaria
 RGS,Burgos,Burgos,Spain
 BFV,Buri Ram,Buri Ram,Thailand
-BUC,Burketown Airport,\N,Australia
 BTV,Burlington Intl,Burlington,United States
 YDB,Burwash,Burwash,Canada
 BUZ,Bushehr,Bushehr,Iran
@@ -580,7 +548,6 @@ CXR,Cam Ranh Airport,Nha Trang,Vietnam
 YCB,Cambridge Bay,Cambridge Bay,Canada
 CBG,Cambridge,Cambridge,United Kingdom
 CDU,Camden,Camden,Australia
-CGM,Camiguin Airport,\N,Philippines
 CUC,Camilo Daza,Cucuta,Colombia
 LOH,Camilo Ponce Enriquez Airport,La Toma (Catamayo),Ecuador
 ATT,Camp Mabry Austin City,Austin TX,United States
@@ -633,7 +600,6 @@ CAR,Caribou Muni,Caribou,United States
 CAX,Carlisle,Carlisle,United Kingdom
 PUQ,Carlos Ibanez Del Campo Intl,Punta Arenas,Chile
 BYM,Carlos Manuel De Cespedes,Bayamo,Cuba
-CVQ,Carnarvon Airport,\N,Australia
 CLN,Carolina,Carolina,Brazil
 CFR,Carpiquet,Caen,France
 CCP,Carriel Sur Intl,Concepcion,Chile
@@ -661,7 +627,6 @@ CUK,Caye Caulker Airport,Caye Caulker,Belize
 CCC,Cayo Coco Airport,Cayo Coco,Cuba
 CDC,Cedar City Rgnl,Cedar City,United States
 CID,Cedar Rapids,Cedar Rapids,United States
-CED,Ceduna Airport,\N,Australia
 ZCN,Celle,Celle,Germany
 APA,Centennial,Denver,United States
 BMI,Central Illinois Rgnl,Bloomington,United States
@@ -682,7 +647,6 @@ RHE,Champagne,Reims,France
 CMI,Champaign,Champaign,United States
 XCD,Champforgeuil,Chalon,France
 IXC,Chandigarh,Chandigarh,India
-BDP,Chandragadhi Airport,\N,Nepal
 KHN,Changbei Intl,Nanchang,China
 CGQ,Changchun,Changchun,China
 CGD,Changde Airport,Changde,China
@@ -709,10 +673,8 @@ CSY,Cheboksary Airport,Cheboksary,Russia
 GEO,Cheddi Jagan Intl,Georgetown,Guyana
 TEE,Cheikh Larbi Tebessi,Tebessa,Algeria
 MAA,Chennai Intl,Chennai,India
-CJJ,Cheongju International Airport,\N,South Korea
 CEE,Cherepovets Airport,Cherepovets,Russia
 AHU,Cherif El Idrissi,Al Hociema,Morocco
-CWC,Chernivtsi International Airport,\N,Ukraine
 TVC,Cherry Capital Airport,Traverse City,United States
 NKT,Cherry Point Mcas,Cherry Point,United States
 CYX,Cherskiy Airport,Cherskiy,Russia
@@ -736,7 +698,6 @@ CCH,Chile Chico,Chile Chico,Chile
 BLZ,Chileka Intl,Blantyre,Malawi
 YCW,Chilliwack,Chilliwack,Canada
 CMU,Chimbu Airport,Kundiawa,Papua New Guinea
-VPY,Chimoio Airport,\N,Mozambique
 TRR,China Bay,Trinciomalee,Sri Lanka
 NID,China Lake Naws,China,United States
 ULN,Chinggis Khaan Intl,Ulan Bator,Mongolia
@@ -781,19 +742,13 @@ CQM,Ciudad Real,Ciudad Real,Spain
 AGT,Ciudad del Este,Ciudad del Este,Paraguay
 Z84,Clear,Clear Mews,United States
 CLE,Cleveland Hopkins Intl,Cleveland,United States
-CNJ,Cloncurry Airport,\N,Australia
 CVN,Clovis Muni,Clovis,United States
 CMK,Club Makokola Airport,Club Makokola,Malawi
 CLJ,Cluj Napoca,Cluj-napoca,Romania
 YCY,Clyde River,Clyde River,Canada
-VCS,Co Ong Airport,\N,Vietnam
 CBV,Coban,Coban,Guatemala
-CAZ,Cobar Airport,\N,Australia
 COK,Cochin,Cochin,India
-CNC,Coconut Island Airport,\N,Australia
-CCK,Cocos Keeling Island Airport,\N,Cocos (Keeling) Islands
 BBQ,Codrington Airport,Codrington,Antigua and Barbuda
-CUQ,Coen Airport,\N,Australia
 CFS,Coffs Harbour,Coff's Harbour,Australia
 CJB,Coimbatore,Coimbatore,India
 CDB,Cold Bay,Cold Bay,United States
@@ -802,7 +757,6 @@ DET,Coleman A Young Muni,Detroit,United States
 CLQ,Colima,Colima,Mexico
 QKL,Cologne Railway,Cologne,Germany
 RML,Colombo Ratmalana,Colombo,Sri Lanka
-CRI,Colonel Hill Airport,\N,Bahamas
 CAE,Columbia Metropolitan,Colombia,United States
 COU,Columbia Rgnl,Columbia,United States
 CBM,Columbus Afb,Colombus,United States
@@ -824,11 +778,7 @@ CGH,Congonhas,Sao Paulo,Brazil
 QCY,Coningsby,Coningsby,United Kingdom
 NOC,Connaught,Connaught,Ireland
 OTD,Contadora Airport,Contadora Island,Panama
-CPD,Coober Pedy Airport,\N,Australia
 COH,Cooch Behar,Cooch-behar,India
-CTN,Cooktown Airport,\N,Australia
-OOM,Cooma Snowy Mountains Airport,\N,Australia
-CNB,Coonamble Airport,\N,Australia
 CPO,Copiapo,Copiapo,Chile
 ODB,Cordoba,Cordoba,Spain
 ORK,Cork,Cork,Ireland
@@ -864,7 +814,6 @@ TAB,Crown Point,Scarborough,Trinidad and Tobago
 CZS,Cruzeiro Do Sul,Cruiziro Do Sul,Brazil
 CDP,Cuddapah,Cuddapah,India
 CUL,Culiacan Intl,Culiacan,Mexico
-CMA,Cunnamulla Airport,\N,Australia
 CTB,Cut Bank Muni,Cutbank,United States
 CGF,Cuyahoga County,Richmond Heights,United States
 CYU,Cuyo Airport,Cuyo,Philippines
@@ -875,7 +824,6 @@ TNT,Dade Collier Training And Transition,Miami,United States
 TAE,Daegu Ab,Taegu,South Korea
 VIL,Dakhla Airport,Dakhla,Western Sahara
 DLM,Dalaman,Dalaman,Turkey
-DLZ,Dalanzadgad Airport,\N,Mongolia
 DLI,Dalat,Dalat,Vietnam
 DBA,Dalbandin Airport,Dalbandin,Pakistan
 DHT,Dalhart Muni,Dalhart,United States
@@ -890,7 +838,6 @@ MSN,Dane Co Rgnl Truax Fld,Madison,United States
 LIR,Daniel Oduber Quiros Intl,Liberia,Costa Rica
 TAC,Daniel Z Romualdez,Tacloban,Philippines
 NLF,Darnley Island Airport,Darnley Island,Australia
-DAU,Daru Airport,\N,Papua New Guinea
 DRW,Darwin Intl,Darwin,Australia
 DTD,Datadawai Airport,Datadawai-Borneo Island,Indonesia
 DAT,Datong Airport,Datong,China
@@ -932,18 +879,15 @@ DES,Desroches,Desroches,Seychelles
 DTW,Detroit Metro Wayne Co,Detroit,United States
 ANR,Deurne,Antwerp,Belgium
 IDR,Devi Ahilyabai Holkar,Indore,India
-DPO,Devonport Airport,\N,Australia
 DBO,Dhanbad,Dhanbad,India
 DHI,Dhangarhi,Dhangarhi,Nepal
 RHO,Diagoras,Rhodos,Greece
 MOH,Dibrugarh,Mohanbari,India
 IQQ,Diego Aracena Intl,Iquique,Chile
 FAJ,Diego Jimenez Torres,Fajardo,Puerto Rico
-DIN,Dien Bien Phu Airport,\N,Vietnam
 DLG,Dillingham,Dillingham,United States
 HDH,Dillingham,Dillingham,United States
 DLY,Dillon's Bay Airport,Dillon's Bay,Vanuatu
-DMU,Dimapur Airport,\N,India
 AXD,Dimokritos,Alexandroupolis,Greece
 ZTH,Dionysios Solomos,Zakynthos,Greece
 NIM,Diori Hamani,Niamey,Niger
@@ -972,7 +916,6 @@ TBB,Dong Tac,Tuy Hoa,Vietnam
 DOG,Dongola,Dongola,Sudan
 HLD,Dongshan,Hailar,China
 DOY,Dongying Airport,Dongying,China
-DMD,Doomadgee Airport,\N,Australia
 DTM,Dortmund,Dortmund,Germany
 DHN,Dothan Rgnl,Dothan,United States
 DLA,Douala,Douala,Cameroon
@@ -994,7 +937,6 @@ DLH,Duluth Intl,Duluth,United States
 DGT,Dumaguete,Dumaguete,Philippines
 LUV,Dumatumbun Airport,Langgur-Seram Island,Indonesia
 DND,Dundee,Dundee,United Kingdom
-DUE,Dundo Airport,\N,Angola
 DUD,Dunedin,Dunedin,New Zealand
 DNH,Dunhuang Airport,Dunhuang,China
 PQC,Duong Dong Airport,Phu Quoc,Vietnam
@@ -1040,8 +982,6 @@ EIN,Eindhoven,Eindhoven,Netherlands
 YOA,Ekati,Ekati,Canada
 EYP,El AlcaravÃ¡n Airport,Yopal,Colombia
 LPB,El Alto Intl,La Paz,Bolivia
-AAC,El Arish International Airport,\N,Egypt
-NDR,El Aroui Airport,\N,Morocco
 EHL,El Bolson,El Bolson,Argentina
 EBM,El Borma,El Borma,Tunisia
 FTE,El Calafate,El Calafate,Argentina
@@ -1065,7 +1005,6 @@ PMC,El Tepual Intl,Puerto Montt,Chile
 ELT,El Tor,El-tor,Egypt
 NZJ,El Toro,Santa Ana,United States
 EZS,Elazig,Elazig,Turkey
-ELC,Elcho Island Airport,\N,Australia
 BOG,Eldorado Intl,Bogota,Colombia
 EDL,Eldoret Intl,Eldoret,Kenya
 ATH,Eleftherios Venizelos Intl,Athens,Greece
@@ -1114,7 +1053,6 @@ ESB,Esenboga,Ankara,Turkey
 IFN,Esfahan Shahid Beheshti Intl,Isfahan,Iran
 ESK,Eskisehir,Eskisehir,Turkey
 ESF,Esler Rgnl,Alexandria,United States
-EPR,Esperance Airport,\N,Australia
 EQS,Esquel,Esquel,Argentina
 ESS,Essen Mulheim,Essen,Germany
 ENC,Essey,Nancy,France
@@ -1171,7 +1109,6 @@ FLG,Flagstaff Pulliam Airport,Flagstaff,United States
 BON,Flamingo,Kralendijk,Netherlands Antilles
 BGO,Flesland,Bergen,Norway
 YFO,Flin Flon,Flin Flon,Canada
-FLS,Flinders Island Airport,\N,Australia
 FLO,Florence Rgnl,Florence,United States
 FLW,Flores,Flores (flores Isl.),Portugal
 FRO,Floro,Floro,Norway
@@ -1233,7 +1170,6 @@ FUE,Fuerteventura,Fuerteventura,Spain
 FJR,Fujairah Intl,Fujeirah,United Arab Emirates
 FUJ,Fukue,Fukue,Japan
 FUK,Fukuoka,Fukuoka,Japan
-FKS,Fukushima Airport,\N,Japan
 FUN,Funafuti International,Funafuti,Tuvalu
 FEL,Furstenfeldbruck,Fuerstenfeldbruck,Germany
 FTA,Futuna Airport,Futuna Island,Vanuatu
@@ -1249,7 +1185,6 @@ GWY,Galway,Galway,Ireland
 TOB,Gamal Abdel Nasser Airport,Tobruk,Libya
 GAX,Gamba,Gamba,Gabon
 GMB,Gambella,Gambella,Ethiopia
-GAN,Gan Island Airport,\N,Maldives
 YQX,Gander Intl,Gander,Canada
 KAG,Gangneung,Kangnung,South Korea
 KVD,Ganja Airport,Ganja,Azerbaijan
@@ -1311,7 +1246,6 @@ SLU,George F L Charles,Castries,Saint Lucia
 GRJ,George,George,South Africa
 GRR,Gerald R Ford Intl,Grand Rapids,United States
 MNI,Geralds Airport,Geralds,Montserrat
-GET,Geraldton Airport,\N,Australia
 YGQ,Geraldton Greenstone Regional,Geraldton,Canada
 BUN,Gerardo Tobar Lopez,Buenaventura,Colombia
 CYB,Gerrard Smith Intl,Cayman Barac,Cayman Islands
@@ -1329,12 +1263,10 @@ PUS,Gimhae Intl,Kimhae,South Korea
 GMP,Gimpo,Seoul,South Korea
 FOG,Gino Lisa,Foggia,Italy
 GRO,Girona,Gerona,Spain
-PNP,Girua Airport,\N,Papua New Guinea
 GIS,Gisborne,Gisborne,New Zealand
 GYI,Gisenyi,Gisenyi,Rwanda
 YHK,Gjoa Haven,Gjoa Haven,Canada
 FCA,Glacier Park Intl,Kalispell,United States
-GLT,Gladstone Airport,\N,Australia
 GLA,Glasgow,Glasgow,United Kingdom
 MON,Glentanner,Glentanner,New Zealand
 GLO,Gloucestershire,Golouchestershire,United Kingdom
@@ -1365,7 +1297,6 @@ YZE,Gore Bay Manitoulin,Gore Bay,Canada
 GOZ,Gorna Oryahovitsa,Gorna Orechovica,Bulgaria
 GKA,Goroka,Goroka,Papua New Guinea
 GDA,Gounda Airport,Gounda,Central African Republic
-GOV,Gove Airport,\N,Australia
 PVH,Governador Jorge Teixeira De Oliveira,Porto Velho,Brazil
 GHB,Governors Harbour,Governor's Harbor,Bahamas
 GRW,Graciosa,Graciosa Island,Portugal
@@ -1396,11 +1327,9 @@ POP,Gregorio Luperon Intl,Puerto Plata,Dominican Republic
 PBF,Grider Fld,Pine Bluff,United States
 SKY,Griffing Sandusky,Sandusky,United States
 RME,Griffiss Afld,Rome,United States
-GFF,Griffith Airport,\N,Australia
 YGZ,Grise Fiord Airport,Grise Fiord,Canada
 GUS,Grissom Arb,Peru,United States
 JGR,Groennedal Heliport,Groennedal,Greenland
-GTE,Groote Eylandt Airport,\N,Australia
 GRS,Grosseto,Grosseto,Italy
 GON,Groton New London,Groton CT,United States
 TAR,Grottaglie,Grottaglie,Italy
@@ -1414,7 +1343,6 @@ GUQ,Guanare,Guanare,Venezuela
 GYS,Guangyuan Airport,Guangyuan,China
 REC,Guararapes Gilberto Freyre Intl,Recife,Brazil
 GRU,Guarulhos Gov Andre Franco Montouro,Sao Paulo,Brazil
-ELU,Guemar Airport,\N,Algeria
 GCI,Guernsey,Guernsey,Guernsey
 GUB,Guerrero Negro Airport,Guerrero Negro,Mexico
 PPN,Guillermo Leon Valencia,Popayan,Colombia
@@ -1426,7 +1354,6 @@ ULU,Gulu Airport,Gulu,Uganda
 VOG,Gumrak,Volgograd,Russia
 GUC,Gunnison,Gunnison,United States
 URY,Guriat,Guriat,Saudi Arabia
-GUR,Gurney Airport,\N,Papua New Guinea
 QUS,Gusau,Gusau,Nigeria
 FLA,Gustavo Artunduaga Paredes,Florencia,Colombia
 BCA,Gustavo Rizo,Baracoa Playa,Cuba
@@ -1443,7 +1370,6 @@ TJQ,H As Hanandjoeddin,Tanjung Pandan,Indonesia
 ENE,H Hasan Aroeboesman,Ende,Indonesia
 MIR,Habib Bourguiba Intl,Monastir,Tunisia
 HAC,Hachijojima,Hachijojima,Japan
-HFS,Hagfors Airport,\N,Sweden
 HFA,Haifa,Haifa,Israel
 HAS,Hail,Hail,Saudi Arabia
 HNS,Haines Airport,Haines,United States
@@ -1455,7 +1381,6 @@ KEV,Halli,Halli,Finland
 HAD,Halmstad,Halmstad,Sweden
 XFW,Hamburg Finkenwerder,Hamburg,Germany
 HAM,Hamburg,Hamburg,Germany
-HTI,Hamilton Island Airport,\N,Australia
 YHM,Hamilton,Hamilton,Canada
 HLZ,Hamilton,Hamilton,New Zealand
 HNM,Hana,Hana,United States
@@ -1493,14 +1418,11 @@ HLN,Helena Rgnl,Helena,United States
 HGL,Helgoland-DÃ¼ne Airport,Helgoland,Germany
 HEM,Helsinki Malmi,Helsinki,Finland
 HEL,Helsinki Vantaa,Helsinki,Finland
-HMV,Hemavan Airport,\N,Sweden
-HCN,Hengchun Airport,\N,Taiwan
 OTP,Henri Coanda,Bucharest,Romania
 STX,Henry E Rohlsen,St. Criox Island,Virgin Islands
 FSI,Henry Post Aaf,Fort Sill,United States
 HEA,Herat,Herat,Afghanistan
 FLN,Hercilio Luz,Florianopolis,Brazil
-HDF,Heringsdorf Airport,\N,Germany
 VTU,Hermanos Ameijeiras,Las Tunas,Cuba
 PBC,Hermanos Serdan Intl,Puebla,Mexico
 CIJ,Heroes Del Acre,Cobija,Bolivia
@@ -1515,7 +1437,6 @@ HIF,Hill Afb,Ogden,United States
 INJ,Hillsboro Muni,Santa Ana,United States
 ITO,Hilo Intl,Hilo,United States
 HIJ,Hiroshima,Hiroshima,Japan
-AUQ,Hiva Oa-Atuona Airport,\N,French Polynesia
 HBR,Hobart Muni,Hobart,United States
 HBA,Hobart,Hobart,Australia
 HOD,Hodeidah Intl,Hodeidah,Yemen
@@ -1532,9 +1453,7 @@ HIR,Honiara International,Honiara,Solomon Islands
 BEQ,Honington,Honington,United Kingdom
 HNL,Honolulu Intl,Hickam Afb,United States
 HLR,Hood Aaf,Fort Hood,United States
-HOK,Hooker Creek Airport,\N,Australia
 YHO,Hopedale Airport,Hopedale,Canada
-HID,Horn Island Airport,\N,Australia
 HFN,Hornafjordur,Hofn,Iceland
 HOR,Horta,Horta,Portugal
 HTN,Hotan,Hotan,China
@@ -1552,10 +1471,8 @@ HUN,Hualien,Hualien,Taiwan
 NOV,Huambo,Huambo,Angola
 CSX,Huanghua,Changcha,China
 HYN,Huangyan Luqiao Airport,Huangyan,China
-HBX,Hubli Airport,\N,India
 HUV,Hudiksvall,Hudiksvall,Sweden
 YHB,Hudson Bay,Hudson Bay,Canada
-HGD,Hughenden Airport,\N,Australia
 HLF,Hultsfred,Hultsfred,Sweden
 HUY,Humberside,Humberside,United Kingdom
 SVN,Hunter Aaf,Hunter Aaf,United States
@@ -1576,7 +1493,6 @@ TNG,Ibn Batouta,Tanger,Morocco
 YVA,Iconi Airport,Moroni,Comoros
 IDA,Idaho Falls Rgnl,Idaho Falls,United States
 IAA,Igarka Airport,Igarka,Russia
-QFI,Iginniarfik Heliport,\N,Greenland
 YGT,Igloolik Airport,Igloolik,Canada
 CMW,Ignacio Agramonte Intl,Camaguey,Cuba
 BQS,Ignatyevo,Blagoveschensk,Russia
@@ -1629,10 +1545,8 @@ PBP,Islita Airport,Nandayure,Costa Rica
 ISE,Isparta SÃ¼leyman Demirel Airport,Isparta,Turkey
 ITH,Ithaca Tompkins Rgnl,Ithaca,United States
 IVL,Ivalo,Ivalo,Finland
-IFO,Ivano Frankivsk International Airport,\N,Ukraine
 TNR,Ivato,Antananarivo,Madagascar
 YIK,Ivujivik Airport,Ivujivik,Canada
-IWJ,Iwami Airport,\N,Japan
 IWO,Iwo Jima,Iwojima,Japan
 ZIH,Ixtapa Zihuatanejo Intl,Zihuatanejo,Mexico
 IJK,Izhevsk Airport,Izhevsk,Russia
@@ -1671,7 +1585,6 @@ JER,Jersey,Jersey,Jersey
 JSR,Jessore,Jessore,Bangladesh
 AGU,Jesus Teran Intl,Aguascalientes,Mexico
 JPR,Ji-ParanÃ¡ Airport,Ji-ParanÃ¡,Brazil
-JMU,Jiamusi Airport,\N,China
 CKG,Jiangbei,Chongqing,China
 GJL,Jijel,Jijel,Algeria
 JIM,Jimma,Jimma,Ethiopia
@@ -1691,7 +1604,6 @@ JFK,John F Kennedy Intl,New York,United States
 JST,John Murtha Johnstown-Cambria County Airport,Johnstown,United States
 SNA,John Wayne Arpt Orange Co,Santa Ana,United States
 JON,Johnston Atoll,Johnston Island,Johnston Atoll
-JOL,Jolo Airport,\N,Philippines
 NBO,Jomo Kenyatta International,Nairobi,Kenya
 JMO,Jomsom,Jomsom,Nepal
 JBR,Jonesboro Muni,Jonesboro,United States
@@ -1718,7 +1630,6 @@ SUB,Juanda,Surabaya,Indonesia
 JJI,Juanjui,Juanjui,Peru
 JUB,Juba,Juba,Sudan
 JUJ,Jujuy,Jujuy,Argentina
-JCK,Julia Creek Airport,\N,Australia
 JUL,Juliaca,Juliaca,Peru
 JUM,Jumla,Jumla,Nepal
 JNU,Juneau Intl,Juneau,United States
@@ -1736,7 +1647,6 @@ KAD,Kaduna,Kaduna,Nigeria
 KED,Kaedi,Kaedi,Mauritania
 KGE,Kagau Island Airport,Kagau Island,Solomon Islands
 KOJ,Kagoshima,Kagoshima,Japan
-KCM,Kahramanmaras Airport,\N,Turkey
 OGG,Kahului,Kahului,United States
 KAI,Kaieteur,Kaieteur,Guyana
 KBZ,Kaikoura,Kaikoura,New Zealand
@@ -1747,11 +1657,9 @@ KAJ,Kajaani,Kajaani,Finland
 KLX,Kalamata,Kalamata,Greece
 AZO,Kalamazoo,Kalamazoo,United States
 LUP,Kalaupapa Airport,Molokai,United States
-KAX,Kalbarri Airport,\N,Australia
 FMI,Kalemie,Kalemie,Congo (Kinshasa)
 KGI,Kalgoorlie Boulder,Kalgoorlie,Australia
 KLO,Kalibo,Kalibo,Philippines
-KFG,Kalkgurung Airport,\N,Australia
 LLA,Kallax,Lulea,Sweden
 KLR,Kalmar,Kalkmar,Sweden
 KLG,Kalskag Airport,Kalskag,United States
@@ -1782,14 +1690,12 @@ KRY,Karamay Airport,Karamay,China
 KAB,Kariba Intl,Kariba,Zimbabwe
 KLV,Karlovy Vary,Karlovy Vary,Czech Republic
 KSK,Karlskoga,Karlskoga,Sweden
-KSD,Karlstad Airport,\N,Sweden
 HAU,Karmoy,Haugesund,Norway
 KGJ,Karonga,Karonga,Malawi
 AOK,Karpathos,Karpathos,Greece
 KTA,Karratha,Karratha,Australia
 KSY,Kars Airport,Kars,Turkey
 KSQ,Karshi Khanabad Airport,Khanabad,Uzbekistan
-KRB,Karumba Airport,\N,Australia
 KRP,Karup,Karup,Denmark
 XKS,Kasabonika Airport,Kasabonika,Canada
 BBK,Kasane,Kasane,Botswana
@@ -1805,7 +1711,6 @@ EUA,Kaufana Airport,Eua Island,Tonga
 KAU,Kauhava,Kauhava,Finland
 KKR,Kaukura,Kaukura Atoll,French Polynesia
 KUN,Kaunas Intl,Kaunas,Lithuania
-KVG,Kavieng Airport,\N,Papua New Guinea
 KAW,Kawthoung Airport,Kawthoung,Burma
 KYS,Kayes Dag Dag,Kayes,Mali
 KZN,Kazan,Kazan,Russia
@@ -1824,7 +1729,6 @@ KEN,Kenema Airport,Kenema,Sierra Leone
 KET,Kengtung,Kengtung,Burma
 NNA,Kenitra,Kentira,Morocco
 YQK,Kenora,Kenora,Canada
-KMA,Kerema Airport,\N,Papua New Guinea
 KKE,Kerikeri,Kerikeri,New Zealand
 KER,Kerman,Kerman,Iran
 KIR,Kerry,Kerry,Ireland
@@ -1842,9 +1746,7 @@ KHS,Khasab,Khasab,Oman
 HTG,Khatanga Airport,Khatanga,Russia
 UUS,Khomutovo,Yuzhno-sakhalinsk,Russia
 KKC,Khon Kaen,Khon Kaen,Thailand
-KHD,Khoram Abad Airport,\N,Iran
 NAK,Khorat,Nakhon Ratchasima,Thailand
-HVD,Khovd Airport,\N,Mongolia
 KGD,Khrabrovo,Kaliningrad,Russia
 LBD,Khudzhand Airport,Khudzhand,Tajikistan
 KDD,Khuzdar Airport,Khuzdar,Pakistan
@@ -1869,7 +1771,6 @@ JED,King Abdulaziz Intl,Jeddah,Saudi Arabia
 GIZ,King Abdullah Bin Abdulaziz,Gizan,Saudi Arabia
 DMM,King Fahd Intl,Dammam,Saudi Arabia
 OMF,King Hussein,Mafraq,Jordan
-KNS,King Island Airport,\N,Australia
 RUH,King Khaled Intl,Riyadh,Saudi Arabia
 HBT,King Khaled Military City,King Khalid Mil.city,Saudi Arabia
 AKN,King Salmon,King Salmon,United States
@@ -1902,7 +1803,6 @@ ZNV,Koblenz Winningen,Koblenz,Germany
 KCZ,Kochi,Kochi,Japan
 ADQ,Kodiak,Kodiak,United States
 KGP,Kogalym International,Kogalym,Russia
-KCT,Koggala Airport,\N,Sri Lanka
 KKD,Kokoda Airport,Kokoda,Papua New Guinea
 KOV,Kokshetau Airport,Kokshetau,Kazakhstan
 KLH,Kolhapur,Kolhapur,India
@@ -1932,7 +1832,6 @@ KSZ,Kotlas Airport,Kotlas,Russia
 ACC,Kotoka Intl,Accra,Ghana
 KOU,Koulamoutou Airport,Koulamoutou,Gabon
 KOC,Koumac,Koumac,New Caledonia
-KWM,Kowanyama Airport,\N,Australia
 KBV,Krabi,Krabi,Thailand
 KRF,Kramfors Solleftea,Kramfors,Sweden
 PKV,Kresty,Pskov,Russia
@@ -1942,7 +1841,6 @@ MQP,Kruger Mpumalanga International Airport,Mpumalanga,South Africa
 KOK,Kruunupyy,Kruunupyy,Finland
 KUL,Kuala Lumpur Intl,Kuala Lumpur,Malaysia
 KUA,Kuantan,Kuantan,Malaysia
-KUG,Kubin Airport,\N,Australia
 KCH,Kuching Intl,Kuching,Malaysia
 KUD,Kudat Airport,Kudat,Malaysia
 AKF,Kufra,Kufra,Libya
@@ -1953,7 +1851,6 @@ SVP,Kuito,Kuito,Angola
 KUU,Kullu Manali,Kulu,India
 KUS,Kulusuk,Kulusuk,Greenland
 KMJ,Kumamoto,Kumamoto,Japan
-KMS,Kumasi Airport,\N,Ghana
 UEO,Kumejima,Kumejima,Japan
 NRK,Kungsangen,Norrkoeping,Sweden
 KUB,Kunsan Ab,Kunsan,South Korea
@@ -1965,7 +1862,6 @@ URE,Kuressaare,Kuressaare,Estonia
 KRO,Kurgan Airport,Kurgan,Russia
 URS,Kursk East Airport,Kursk,Russia
 KBY,Kurumoch,Samara,Russia
-KUH,Kushiro Airport,\N,Japan
 YVP,Kuujjuaq,Quujjuaq,Canada
 YGW,Kuujjuarapik Airport,Kuujjuarapik,Canada
 KAO,Kuusamo,Kuusamo,Finland
@@ -1983,7 +1879,6 @@ LSC,La Florida,La Serena,Chile
 TCO,La Florida,Tumaco,Colombia
 LFR,La Fria,La Fria,Venezuela
 AGF,La Garenne,Agen,France
-GMZ,La Gomera Airport,\N,Spain
 YGL,La Grande Riviere,La Grande Riviere,Canada
 LGA,La Guardia,New York,United States
 GLJ,La Jagua Airport,GarzÃ³n,Colombia
@@ -2003,7 +1898,6 @@ XAC,La Teste De Buch,Arcachon,France
 NOU,La Tontouta,Noumea,New Caledonia
 LSE,LaCrosse Municipal,LaCrosse,United States
 RLG,Laage,Laage,Germany
-LBS,Labasa Airport,\N,Fiji
 LMG,Labasa,Lambasa,Fiji
 LEK,Labe,Labe,Guinea
 LBU,Labuan,Labuan,Malaysia
@@ -2018,7 +1912,6 @@ LDU,Lahad Datu,Lahad Datu,Malaysia
 YNT,Laishan,Yantai,China
 TER,Lajes,Lajes (terceira Island),Portugal
 LCH,Lake Charles Rgnl,Lake Charles,United States
-LEL,Lake Evella Airport,\N,Australia
 LMY,Lake Murray Airport,Lake Murray,Papua New Guinea
 TVL,Lake Tahoe Airport,South Lake Tahoe,United States
 LKB,Lakeba Island Airport,Lakeba Island,Fiji
@@ -2050,7 +1943,6 @@ KYD,Lanyu,Lanyu,Taiwan
 ACE,Lanzarote,Lanzerote,Spain
 LAO,Laoag Intl,Laoag,Philippines
 LPP,Lappeenranta,Lappeenranta,Finland
-LRR,Lar Airport,\N,Iran
 LAR,Laramie Regional Airport,Laramie,United States
 LRD,Laredo Intl,Laredo,United States
 LRA,Larisa,Larissa,Greece
@@ -2070,7 +1962,6 @@ BED,Laurence G Hanscom Fld,Bedford,United States
 CRU,Lauriston Airport,Carriacou Island,Grenada
 JOI,Lauro Carneiro De Loyola,Joinville,Brazil
 PFB,Lauro Kurtz,Passo Fundo,Brazil
-LVO,Laverton Airport,\N,Australia
 LWY,Lawas Airport,Lawas,Malaysia
 POZ,Lawica,Poznan,Poland
 LSF,Lawson Aaf,Fort Benning,United States
@@ -2093,13 +1984,11 @@ LWR,Leeuwarden,Leeuwarden,Netherlands
 LGP,Legazpi,Legazpi,Philippines
 IXL,Leh,Leh,India
 ABE,Lehigh Valley Intl,Allentown,United States
-LER,Leinster Airport,\N,Australia
 LEJ,Leipzig Halle,Leipzig,Germany
 VDB,Leirin,Fagernes,Norway
 RAO,Leite Lopes,Ribeirao Preto,Brazil
 LKN,Leknes Airport,Leknes,Norway
 NLC,Lemoore Nas,Lemoore,United States
-JAL,Lencero Airport,\N,Mexico
 LBV,Leon M Ba,Libreville,Gabon
 LEN,Leon,Leon,Spain
 LNO,Leonora Airport,Leonora,Australia
@@ -2133,7 +2022,6 @@ LGG,Liege,Liege,Belgium
 LPX,Liepaja Intl,Liepaja,Latvia
 LIF,Lifou,Lifou,New Caledonia
 HPA,Lifuka Island Airport,Lifuka,Tonga
-LHG,Lightning Ridge Airport,\N,Australia
 LIH,Lihue,Lihue,United States
 LJG,Lijiang Airport,Lijiang,China
 LIK,Likiep Airport,Likiep Island,Marshall Islands
@@ -2150,7 +2038,6 @@ LPK,Lipetsk Airport,Lipetsk,Russia
 LIQ,Lisala,Lisala,Congo (Kinshasa)
 LIS,Lisboa,Lisbon,Portugal
 NGB,Lishe,Ninbo,China
-LSY,Lismore Airport,\N,Australia
 FAN,Lista,Lista,Norway
 LRF,Little Rock Afb,Jacksonville,United States
 TAO,Liuting,Qingdao,China
@@ -2158,11 +2045,9 @@ LPL,Liverpool,Liverpool,United Kingdom
 LVI,Livingstone,Livingstone,Zambia
 LJU,Ljubljana,Ljubliana,Slovenia
 YLL,Lloydminster,Lloydminster,Canada
-IRG,Lockhart River Airport,\N,Australia
 LJA,Lodja Airport,Lodja,Congo (Kinshasa)
 LOK,Lodwar,Lodwar,Kenya
 LOE,Loei,Loei,Thailand
-RJL,LogroÃ±o-Agoncillo Airport,\N,Spain
 LIW,Loikaw Airport,Loikaw,Burma
 LKG,Lokichoggio Airport,Lokichoggio,Kenya
 GAU,Lokpriya Gopinath Bordoloi International Airport,Guwahati,India
@@ -2180,12 +2065,10 @@ LGL,Long Lellang Airport,Long Datih,Malaysia
 ODN,Long Seridan Airport,Long Seridan,Malaysia
 LOD,Longana Airport,Longana,Vanuatu
 KWE,Longdongbao,Guiyang,China
-LRE,Longreach Airport,\N,Australia
 DIJ,Longvic,Dijon,France
 LYR,Longyear,Svalbard,Svalbard
 LNE,Lonorore Airport,Lonorore,Vanuatu
 LPS,Lopez Island Airport,Lopez,United States
-LDH,Lord Howe Island Airport,\N,Australia
 LTO,Loreto Intl,Loreto,Mexico
 LAX,Los Angeles Intl,Los Angeles,United States
 SJD,Los Cabos Intl,San Jose Del Cabo,Mexico
@@ -2199,7 +2082,6 @@ SDF,Louisville International Airport,Louisville,United States
 YBX,Lourdes De Blanc Sablon Airport,Lourdes-De-Blanc-Sablon,Canada
 LDE,Lourdes,Tarbes,France
 CHA,Lovell Fld,Chattanooga,United States
-KWG,Lozuvatka International Airport,\N,Ukraine
 LAD,Luanda 4 De Fevereiro,Luanda,Angola
 LXG,Luang Namtha,Luang Namtha,Laos
 LPQ,Luang Phabang Intl,Luang Prabang,Laos
@@ -2212,7 +2094,6 @@ LUD,Luderitz Airport,Luderitz,Namibia
 LUH,Ludhiana,Ludhiaha,India
 LUO,Luena,Luena,Angola
 LUG,Lugano,Lugano,Switzerland
-VSG,Luhansk International Airport,\N,Ukraine
 SJU,Luis Munoz Marin Intl,San Juan,Puerto Rico
 LUF,Luke Afb,Phoenix,United States
 LUA,Lukla,Lukla,Nepal
@@ -2247,7 +2128,6 @@ MAG,Madang,Madang,Papua New Guinea
 FNC,Madeira,Funchal,Portugal
 IXM,Madurai,Madurai,India
 HGN,Mae Hong Son,Mae Hong Son,Thailand
-MAQ,Mae Sot Airport,\N,Thailand
 MFA,Mafia,Mafia Island,Tanzania
 MBO,Mafikeng,Mmabatho,South Africa
 GEA,Magenta,Noumea,New Caledonia
@@ -2308,7 +2188,6 @@ MHK,Manhattan Reigonal,Manhattan,United States
 XMH,Manihi,Manihi,French Polynesia
 MHX,Manihiki Island Airport,Manihiki Island,Cook Islands
 JSU,Maniitsoq Airport,Maniitsoq,Greenland
-MNG,Maningrida Airport,\N,Australia
 YMW,Maniwaki,Maniwaki,Canada
 MJA,Manja Airport,Manja,Madagascar
 MHG,Mannheim City,Mannheim,Germany
@@ -2332,7 +2211,6 @@ MGH,Margate,Margate,South Africa
 KNF,Marham,Marham,United Kingdom
 LSQ,Maria Dolores,Los Angeles,Chile
 BRX,Maria Montez Intl,Barahona,Dominican Republic
-NZA,Maria Reiche Neuman Airport,\N,Peru
 GAO,Mariana Grajales,Guantanamo,Cuba
 MBX,Maribor,Maribor,Slovenia
 MHQ,Mariehamn,Mariehamn,Finland
@@ -2341,7 +2219,6 @@ OAR,Marina Muni,Fort Ord,United States
 MOC,Mario Ribeiro,Montes Claros,Brazil
 CUE,Mariscal Lamar,Cuenca,Ecuador
 UIO,Mariscal Sucre Intl,Quito,Ecuador
-MPW,Mariupol International Airport,\N,Ukraine
 ADJ,Marka Intl,Amman,Jordan
 WMN,Maroantsetra,Maroantsetra,Madagascar
 MCY,Maroochydore Sunshine Coast,Maroochydore,Australia
@@ -2352,7 +2229,6 @@ MAJ,Marshall Islands Intl,Majuro,Marshall Islands
 MVY,Martha\\'s Vineyard,Vineyard Haven MA,United States
 MUR,Marudi,Marudi,Malaysia
 YMH,Mary's Harbour Airport,Mary's Harbour,Canada
-MBH,Maryborough Airport,\N,Australia
 MII,MarÃ­lia Airport,MarÃ­lia,Brazil
 MBT,Masbate Airport,Masbate,Philippines
 MHD,Mashhad,Mashhad,Iran
@@ -2404,7 +2280,6 @@ TYS,Mc Ghee Tyson,Knoxville,United States
 WRI,Mc Guire Afb,Wrightstown,United States
 MKL,Mc Kellar Sipes Rgnl,Jackson,United States
 MMV,Mc Minnville Muni,Mackminnville,United States
-MCV,McArthur River Mine Airport,\N,Australia
 CLD,McClellan-Palomar Airport,Carlsbad,United States
 MCG,McGrath Airport,Mcgrath,United States
 YLJ,Meadow Lake,Meadow Lake,Canada
@@ -2412,7 +2287,6 @@ BFL,Meadows Fld,Bakersfield,United States
 YXH,Medicine Hat,Medicine Hat,Canada
 RYN,Medis,Royan,France
 MPL,Mediterranee,Montpellier,France
-MKR,Meekatharra Airport,\N,Australia
 KVA,Megas Alexandros Intl,Kavala,Greece
 MEY,Meghauli Airport,Meghauli,Nepal
 THR,Mehrabad Intl,Teheran,Iran
@@ -2430,7 +2304,6 @@ FMM,Memmingen Allgau,Memmingen Allgau,Germany
 HOT,Memorial Field,Hot Springs,United States
 MEM,Memphis Intl,Memphis,United States
 RAK,Menara,Marrakech,Morocco
-MDU,Mendi Airport,\N,Papua New Guinea
 MNM,Menominee Marinette Twin Co,Macon,United States
 SPP,Menongue,Menongue,Angola
 MAH,Menorca,Menorca,Spain
@@ -2438,7 +2311,6 @@ PSE,Mercedita,Ponce,Puerto Rico
 BLF,Mercer County Airport,Bluefield,United States
 NMM,Meridian Nas,Meridian,United States
 BOD,Merignac,Bordeaux,France
-MIM,Merimbula Airport,\N,Australia
 CDV,Merle K Mudhole Smith,Cordova,United States
 MRI,Merrill Fld,Anchorage,United States
 MUH,Mersa Matruh,Mersa-matruh,Egypt
@@ -2463,10 +2335,8 @@ YGJ,Miho,Miho,Japan
 MIK,Mikkeli,Mikkeli,Finland
 JMK,Mikonos,Mykonos,Greece
 MHZ,Mildenhall,Mildenhall,United Kingdom
-MQL,Mildura Airport,\N,Australia
 MFN,Milford Sound Airport,Milford Sound,New Zealand
 MIJ,Mili Island Airport,Mili Island,Marshall Islands
-MGT,Milingimbi Airport,\N,Australia
 NQA,Millington Rgnl Jetport,Millington,United States
 MLT,Millinocket Muni,Millinocket,United States
 MIV,Millville Muni,Millville,United States
@@ -2495,7 +2365,6 @@ MSO,Missoula Intl,Missoula,United States
 MOI,Mitiaro Island Airport,Mitiaro Island,Cook Islands
 MJI,Mitiga Airport,Tripoli,Libya
 MJT,Mitilini,Mytilini,Greece
-MYE,Miyakejima Airport,\N,Japan
 MMY,Miyako,Miyako,Japan
 KMI,Miyazaki,Miyazaki,Japan
 MTF,Mizan Teferi Airport,Mizan Teferi,Ethiopia
@@ -2507,7 +2376,6 @@ MZB,Mocimboa Da Praia,Mocimboa Da Praia,Mozambique
 MOD,Modesto City Co Harry Sham,Modesto,United States
 MJD,Moenjodaro,Moenjodaro,Pakistan
 NUQ,Moffett Federal Afld,Mountain View,United States
-ESU,Mogador Airport,\N,Morocco
 MVQ,Mogilev Airport,Mogilev,Belarus
 CZL,Mohamed Boudiaf Intl,Constantine,Algeria
 CMN,Mohammed V Intl,Casablanca,Morocco
@@ -2515,7 +2383,6 @@ YMS,Moises Benzaquen Rengifo,Yurimaguas,Peru
 MPK,Mokpo Airport,Mokpo,South Korea
 MKK,Molokai,Molokai,United States
 MBA,Mombasa Moi Intl,Mombasa,Kenya
-MAS,Momote Airport,\N,Papua New Guinea
 MCM,Monaco,Monaco,Monaco
 MBE,Monbetsu,Monbetsu,Japan
 MGL,Monchengladbach,Moenchengladbach,Germany
@@ -2540,16 +2407,12 @@ YMO,Moosonee,Moosonee,Canada
 MKQ,Mopah,Merauke,Indonesia
 MXX,Mora,Mora,Sweden
 TVA,Morafenobe Airport,Morafenobe,Madagascar
-MOV,Moranbah Airport,\N,Australia
-MRZ,Moree Airport,\N,Australia
 MGW,Morgantown Muni Walter L Bill Hart Fld,Morgantown,United States
 MEZ,Morningside Farm,Messina,South Africa
-ONG,Mornington Island Airport,\N,Australia
 MXH,Moro Airport,Moro,Papua New Guinea
 MXM,Morombe,Morombe,Madagascar
 OZP,Moron Ab,Sevilla,Spain
 MOQ,Morondava,Morondava,Madagascar
-MYA,Moruya Airport,\N,Australia
 TIM,Moses Kilangin,Timika,Indonesia
 MSU,Moshoeshoe I Intl,Maseru,Lesotho
 OSR,Mosnov,Ostrava,Czech Republic
@@ -2559,11 +2422,8 @@ MJL,Mouilla Ville Airport,Mouila,Gabon
 ERH,Moulay Ali Cherif,Er-rachidia,Morocco
 MQQ,Moundou,Moundou,Chad
 GTN,Mount Cook,Mount Cook,New Zealand
-MGB,Mount Gambier Airport,\N,Australia
 HGU,Mount Hagen,Mount Hagen,Papua New Guinea
-MHU,Mount Hotham Airport,\N,Australia
 ISA,Mount Isa,Mount Isa,Australia
-MMG,Mount Magnet Airport,\N,Australia
 MPN,Mount Pleasant,Mount Pleasant,Falkland Islands
 MWP,Mountain Airport,Mountain,Nepal
 MUO,Mountain Home Afb,Mountain Home,United States
@@ -2582,11 +2442,9 @@ UUD,Mukhino,Ulan-ude,Russia
 MUX,Multan Intl,Multan,Pakistan
 MZV,Mulu,Mulu,Malaysia
 MUC,Munchen,Munich,Germany
-MUA,Munda Airport,\N,Solomon Islands
 FRS,Mundo Maya International,Flores,Guatemala
 FMO,Munster Osnabruck,Muenster/osnabrueck,Germany
 MJV,Murcia San Javier,Murcia,Spain
-MXV,Muren Airport,\N,Mongolia
 MMK,Murmansk,Murmansk,Russia
 MYI,Murray Island Airport,Murray Island,Australia
 LOS,Murtala Muhammed,Lagos,Nigeria
@@ -2624,7 +2482,6 @@ NST,Nakhon Si Thammarat,Nakhon Si Thammarat,Thailand
 YQN,Nakina Airport,Nakina,Canada
 NAL,Nalchik Airport,Nalchik,Russia
 NMA,Namangan Airport,Namangan,Uzbekistan
-MSZ,Namibe Airport,\N,Angola
 NDK,Namorik Atoll Airport,Namorik Atoll,Marshall Islands
 APL,Nampula,Nampula,Mozambique
 OSY,Namsos HÃ¸knesÃ¸ra Airport,Namsos,Norway
@@ -2645,8 +2502,6 @@ NPE,Napier,NAPIER,New Zealand
 APF,Naples Muni,Naples,United States
 NAW,Narathiwat,Narathiwat,Thailand
 NRT,Narita Intl,Tokyo,Japan
-NAA,Narrabri Airport,\N,Australia
-NRA,Narrandera Airport,\N,Australia
 JNS,Narsaq Heliport,Narsaq,Greenland
 UAK,Narsarsuaq,Narssarssuaq,Greenland
 NNM,Naryan-Mar,Naryan-Mar,Russia
@@ -2689,7 +2544,6 @@ EWR,Newark Liberty Intl,Newark,United States
 NTL,Newcastle Airport,Newcastle,Australia
 NCS,Newcastle,Newcastle,South Africa
 NCL,Newcastle,Newcastle,United Kingdom
-ZNE,Newman Airport,\N,Australia
 PHF,Newport News Williamsburg Intl,Newport News,United States
 UUU,Newport State,Newport RI,United States
 NGE,Ngaoundere,N'gaoundere,Cameroon
@@ -2706,7 +2560,6 @@ MNL,Ninoy Aquino Intl,Manila,Philippines
 NIO,Nioki Airport,Nioki,Congo (Kinshasa)
 INI,Nis,Nis,Serbia
 IIS,Nissan Island Airport,Nissan Island,Papua New Guinea
-IUE,Niue International Airport,\N,Niue
 HUE,Niue Intl,Alofi,Niue
 NJC,Nizhnevartovsk,Nizhnevartovsk,Russia
 ABV,Nnamdi Azikiwe Intl,Abuja,Nigeria
@@ -2721,7 +2574,6 @@ NGU,Norfolk Ns,Norfolk,United States
 KIN,Norman Manley Intl,Kingston,Jamaica
 YVQ,Norman Wells,Norman Wells,Canada
 SJC,Norman Y Mineta San Jose Intl,San Jose,United States
-NTN,Normanton Airport,\N,Australia
 NUS,Norsup Airport,Norsup,Vanuatu
 YQW,North Battleford,North Battleford,Canada
 YYB,North Bay,North Bay,Canada
@@ -2742,7 +2594,6 @@ YNE,Norway House Airport,Norway House,Canada
 NWI,Norwich,Norwich,United Kingdom
 NOM,Nosara Airport,Nicoya,Costa Rica
 NOB,Nosara,Nosara Beach,Costa Rica
-NSH,Noshahr Airport,\N,Iran
 NTQ,Noto,Wajima,Japan
 NQT,Nottingham Airport,Nottingham,United Kingdom
 EMA,Nottingham East Midlands,East Midlands,United Kingdom
@@ -2763,7 +2614,6 @@ GOH,Nuuk,Godthaab,Greenland
 NYA,Nyagan Airport,Nyagan,Russia
 UYL,Nyala Airport,Nyala,Sudan
 LZY,Nyingchi Airport,Nyingchi,China
-OKY,Oakey Airport,\N,Australia
 OAM,Oamaru,Oamaru,New Zealand
 PDA,Obando Airport,Puerto InÃ­rida,Colombia
 OBF,Oberpfaffenhofen,Oberpfaffenhofen,Germany
@@ -2771,7 +2621,6 @@ OBO,Obihiro,Obihiro,Japan
 OBX,Obo Airport,Obo,Papua New Guinea
 NTU,Oceana Nas,Oceana,United States
 LEH,Octeville,Le Havre,France
-ONJ,Odate Noshiro Airport,\N,Japan
 ODE,Odense,Odense,Denmark
 ODS,Odesa Intl,Odessa,Ukraine
 ODH,Odiham,Odiham,United Kingdom
@@ -2792,7 +2641,6 @@ OIR,Okushiri,Okushiri,Japan
 EOH,Olaya Herrera,Medellin,Colombia
 OLB,Olbia Costa Smeralda,Olbia,Italy
 YOC,Old Crow,Old Crow,Canada
-OLP,Olympic Dam Airport,\N,Australia
 OMB,Omboue Hopital,Omboue Hospial,Gabon
 OMS,Omsk,Omsk,Russia
 OND,Ondangwa Airport,Ondangwa,Namibia
@@ -2803,7 +2651,6 @@ OPF,Opa Locka,Miami,United States
 OMR,Oradea,Oradea,Romania
 ORA,Oran,Oran,Argentina
 OMD,Oranjemund Airport,Oranjemund,Namibia
-ORP,Orapa Airport,\N,Botswana
 ORB,Orebro,Orebro,Sweden
 REN,Orenburg,Orenburg,Russia
 MOA,Orestes Acosta,Moa,Cuba
@@ -2824,7 +2671,6 @@ OIM,Oshima,Oshima,Japan
 OSI,Osijek,Osijek,Croatia
 OSK,Oskarshamn,Oskarshamn,Sweden
 ZYL,Osmany Intl,Sylhet Osmani,Bangladesh
-HRK,Osnova International Airport,\N,Ukraine
 OXB,Osvaldo Vieira International Airport,Bissau,Guinea-Bissau
 AGV,Oswaldo Guevara Mujica,Acarigua,Venezuela
 FMH,Otis Angb,Falmouth,United States
@@ -2839,7 +2685,6 @@ DUH,Oudtshoorn,Oudtshoorn,South Africa
 HME,Oued Irara,Hassi-messaoud,Algeria
 OUE,Ouesso,Ouesso,Congo (Kinshasa)
 OUL,Oulu,Oulu,Finland
-OUK,Outer Skerries Airport,\N,United Kingdom
 UVE,Ouvea,Ouvea,New Caledonia
 VDA,Ovda,Ovda,Israel
 FTX,Owando,Owando,Congo (Kinshasa)
@@ -2854,7 +2699,6 @@ PAD,Paderborn Lippstadt,Paderborn,Germany
 QPA,Padova,Padova,Italy
 PEM,Padre Aldamiz,Puerto Maldonado,Peru
 PFO,Pafos Intl,Paphos,Cyprus
-PAG,Pagadian Airport,\N,Philippines
 FMY,Page Fld,Fort Myers,United States
 PGA,Page Municipal Airport,Page,United States
 PPG,Pago Pago Intl,Pago Pago,American Samoa
@@ -2866,7 +2710,6 @@ PSX,Palacios Muni,Palacios,United States
 PLQ,Palanga Intl,Palanga,Lithuania
 LNA,Palm Beach Co Park,West Palm Beach,United States
 PBI,Palm Beach Intl,West Palm Beach,United States
-PMK,Palm Island Airport,\N,Australia
 PSP,Palm Springs Intl,Palm Springs,United States
 PMZ,Palmar Sur,Palmar Sur,Costa Rica
 PMW,Palmas,Palmas,Brazil
@@ -2885,11 +2728,9 @@ PNL,Pantelleria,Pantelleria,Italy
 PGH,Pantnagar,Nainital,India
 PSV,Papa Stour Airport,Papa Stour,United Kingdom
 PPW,Papa Westray Airport,Papa Westray,United Kingdom
-PBO,Paraburdoo Airport,\N,Australia
 PAJ,Parachinar Airport,Parachinar,Pakistan
 PPQ,Paraparaumu,Paraparaumu,New Zealand
 PED,Pardubice,Pardubice,Czech Republic
-PKE,Parkes Airport,\N,Australia
 PMF,Parma,Parma,Italy
 EPU,Parnu,Parnu,Estonia
 PBH,Paro,Paro,Bhutan
@@ -2954,7 +2795,6 @@ SYX,Phoenix International,Sanya,China
 PHX,Phoenix Sky Harbor Intl,Phoenix,United States
 PRH,Phrae,Phrae,Thailand
 HUI,Phu Bai,Hue,Vietnam
-UIH,Phu Cat Airport,\N,Vietnam
 HKT,Phuket Intl,Phuket,Thailand
 QPZ,Piacenza,Piacenza,Italy
 POS,Piarco,Port-of-spain,Trinidad and Tobago
@@ -3017,9 +2857,7 @@ YHP,Poplar Hill Airport,Poplar Hill,Canada
 PBD,Porbandar,Porbandar,India
 BIA,Poretta,Bastia,France
 POR,Pori,Pori,Finland
-EDR,Pormpuraaw Airport,\N,Australia
 NOW,Port Angeles Cgas,Port Angeles,United States
-PUG,Port Augusta Airport,\N,Australia
 WPB,Port BergÃ© Airport,Port BergÃ©,Madagascar
 IXZ,Port Blair,Port Blair,India
 CMH,Port Columbus Intl,Columbus,United States
@@ -3029,8 +2867,6 @@ PHC,Port Harcourt Intl,Port Hartcourt,Nigeria
 YZT,Port Hardy,Port Hardy,Canada
 PHE,Port Hedland Intl,Port Hedland,Australia
 YHA,Port Hope Simpson Airport,Port Hope Simpson,Canada
-PLO,Port Lincoln Airport,\N,Australia
-PQQ,Port Macquarie Airport,\N,Australia
 YPN,Port Menier,Port Menier,Canada
 POM,Port Moresby Jacksons Intl,Port Moresby,Papua New Guinea
 S46,Port O\\'Connor Airfield,Port O\\'Connor,United States
@@ -3038,7 +2874,6 @@ PSD,Port Said,Port Said,Egypt
 PZU,Port Sudan New International Airport,Port Sudan,Sudan
 VLI,Port Vila Bauerfield,Port-vila,Vanuatu
 PAX,Port-de-Paix Airport,Port-de-Paix,Haiti
-PTJ,Portland Airport,\N,Australia
 PWM,Portland Intl Jetport,Portland,United States
 PDX,Portland Intl,Portland,United States
 PBN,Porto Amboim,Porto Amboim,Angola
@@ -3106,7 +2941,6 @@ NAQ,Qaanaaq Airport,Qaanaaq,Greenland
 JQA,Qaarsut Airport,Uummannaq,Greenland
 AQI,Qaisumah,Hafr Al-batin,Saudi Arabia
 BPX,Qamdo Bangda Airport,Bangda,China
-JJU,Qaqortoq Heliport,\N,Greenland
 JCH,Qasigiannguit,Qasigiannguit,Greenland
 JGO,Qeqertarsuaq Heliport,Qeqertarsuaq Airport,Greenland
 IQM,Qiemo Airport,Qiemo,China
@@ -3128,7 +2962,6 @@ YQZ,Quesnel,Quesnel,Canada
 UET,Quetta,Quetta,Pakistan
 NLD,Quetzalcoatl Intl,Nuevo Laredo,Mexico
 AAZ,Quezaltenango Airport,Quezaltenango,Guatemala
-ULP,Quilpie Airport,\N,Australia
 UIN,Quincy Regional Baldwin Field,Quincy,United States
 JUZ,Quzhou Airport,Quzhou,China
 BVC,Rabil,Boa Vista,Cape Verde
@@ -3141,7 +2974,6 @@ BQN,Rafael Hernandez,Aguadilla,Puerto Rico
 CTG,Rafael Nunez,Cartagena,Colombia
 RAH,Rafha,Rafha,Saudi Arabia
 BEY,Rafic Hariri Intl,Beirut,Lebanon
-RJN,Rafsanjan Airport,\N,Iran
 KTG,Rahadi Usman,Ketapang,Indonesia
 RFP,Raiatea,Raiatea Island,French Polynesia
 RPR,Raipur,Raipur,India
@@ -3151,7 +2983,6 @@ BKW,Raleigh County Memorial Airport,Beckley,United States
 RDU,Raleigh Durham Intl,Raleigh-durham,United States
 OTZ,Ralph Wien Mem,Kotzebue,United States
 RBV,Ramata Airport,Ramata,Solomon Islands
-RAM,Ramingining Airport,\N,Australia
 RZR,Ramsar,Ramsar,Iran
 RMS,Ramstein Ab,Ramstein,Germany
 NTX,Ranai Airport,Ranai-Natuna Besar Island,Indonesia
@@ -3232,7 +3063,6 @@ YRM,Rocky Mountain House,Rocky Mountain House,Canada
 AQP,Rodriguez Ballon,Arequipa,Peru
 MFR,Rogue Valley Intl Medford,Medford,United States
 ROI,Roi Et,Roi Et,Thailand
-RMA,Roma Airport,\N,Australia
 DCA,Ronald Reagan Washington Natl,Washington,United States
 TRS,Ronchi Dei Legionari,Ronchi De Legionari,Italy
 RNP,Rongelap Island Airport,Rongelap Island,Marshall Islands
@@ -3262,7 +3092,6 @@ RUT,Rutland State Airport,Rutland,United States
 PRG,Ruzyne,Prague,Czech Republic
 RVK,Ryum Airport,RÃ¸rvik,Norway
 MQN,RÃ¸ssvoll Airport,Mo i Rana,Norway
-RET,RÃ¸st Airport,\N,Norway
 LPI,Saab,Linkoeping,Sweden
 SCN,Saarbrucken,Saarbruecken,Germany
 SAW,Sabiha Gokcen,Istanbul,Turkey
@@ -3274,7 +3103,6 @@ SAC,Sacramento Executive,Sacramento,United States
 SMF,Sacramento Intl,Sacramento,United States
 MHR,Sacramento Mather,Sacramento,United States
 SKO,Sadiq Abubakar Iii Intl,Sokoto,Nigeria
-HSG,Saga Airport,\N,Japan
 SBR,Saibai Island Airport,Saibai Island,Australia
 SPD,Saidpur,Saidpur,Bangladesh
 SDT,Saidu Sharif,Saidu Sharif,Pakistan
@@ -3322,7 +3150,6 @@ BRC,San Carlos De Bariloche,San Carlos De Bariloch,Argentina
 SCY,San CristÃ³bal Airport,San CristÃ³bal,Ecuador
 SAN,San Diego Intl,San Diego,United States
 TQR,San Domino Island Heliport,Tremiti Islands,Italy
-SFE,San Fernando Airport,\N,Philippines
 SFD,San Fernando De Apure,San Fernando De Apure,Venezuela
 SFO,San Francisco Intl,San Francisco,United States
 UAQ,San Juan,San Julian,Argentina
@@ -3344,12 +3171,10 @@ NDY,Sanday Airport,Sanday,United Kingdom
 YZP,Sandspit,Sandspit,Canada
 ZSJ,Sandy Lake Airport,Sandy Lake,Canada
 SFM,Sanford Regional,Sanford ME,United States
-SGS,Sanga Sanga Airport,\N,Philippines
 EAE,Sangafa Airport,Sangafa,Vanuatu
 MBJ,Sangster Intl,Montego Bay,Jamaica
 TTU,Saniat Rmel,Tetouan,Morocco
 YSK,Sanikiluaq Airport,Sanikiluaq,Canada
-SFQ,Sanliurfa Airport,\N,Turkey
 CRC,Santa Ana Airport,Cartago,Colombia
 STB,Santa Barbara Del Zulia,Santa Barbara,Venezuela
 SBA,Santa Barbara Muni,Santa Barbara,United States
@@ -3373,7 +3198,6 @@ SDE,Santiago Del Estero,Santiago Del Estero,Argentina
 AUC,Santiago Perez,Arauca,Colombia
 SCQ,Santiago,Santiago,Spain
 GEL,Santo Angelo,Santo Angelo,Brazil
-SON,Santo Pekoa International Airport,\N,Vanuatu
 JTR,Santorini,Santorini,Greece
 SDU,Santos Dumont,Rio De Janeiro,Brazil
 SJZ,Sao Jorge,Sao Jorge Island,Portugal
@@ -3385,7 +3209,6 @@ SJJ,Sarajevo,Sarajevo,Bosnia and Herzegovina
 SKX,Saransk Airport,Saransk,Russia
 SRQ,Sarasota Bradenton Intl,Sarasota,United States
 SRH,Sarh Airport,Sarh,Chad
-SRY,Sari Dasht E Naz Airport,\N,Iran
 KGF,Sary-Arka,Karaganda,Kazakhstan
 YXE,Saskatoon J G Diefenbaker Intl,Saskatoon,Canada
 RTG,Satar Tacik,Ruteng,Indonesia
@@ -3400,7 +3223,6 @@ GSE,Save,Gothenborg,Sweden
 SVL,Savonlinna,Savonlinna,Finland
 SVU,Savusavu Airport,Savusavu,Fiji
 MQT,Sawyer International,Marquette,United States
-GXF,Sayun International Airport,\N,Yemen
 SPB,Scappoose Industrial Airpark,San Luis,United States
 SDZ,Scatsta,Scatsta,United Kingdom
 YKL,Schefferville,Schefferville,Canada
@@ -3448,7 +3270,6 @@ ZTM,Shamattawa Airport,Shamattawa,Canada
 KNH,Shang Yi,Chinmen,Taiwan
 SNN,Shannon,Shannon,Ireland
 SHJ,Sharjah Intl,Sharjah,United Arab Emirates
-DNM,Shark Bay Airport,\N,Australia
 SSH,Sharm El Sheikh Intl,Sharm El Sheikh,Egypt
 SHW,Sharurah,Sharurah,Saudi Arabia
 SSC,Shaw Afb,Sumter,United States
@@ -3469,7 +3290,6 @@ SHY,Shinyanga Airport,Shinyanga,Tanzania
 SYZ,Shiraz Shahid Dastghaib Intl,Shiraz,Iran
 SHC,Shire Inda Selassie Airport,Shire Indasilase,Ethiopia
 SSE,Sholapur,Sholapur,India
-SYO,Shonai Airport,\N,Japan
 ESH,Shoreham,Shoreham By Sea,United Kingdom
 STW,Shpakovskoye,Stavropol,Russia
 SHV,Shreveport Rgnl,Shreveport,United States
@@ -3532,7 +3352,6 @@ AER,Sochi,Sochi,Russia
 SCT,Socotra Intl,Socotra,Yemen
 SOT,Sodankyla,Sodankyla,Finland
 CGK,Soekarno Hatta Intl,Jakarta,Indonesia
-SSB,Soesterberg Airport,\N,Netherlands
 UTC,Soesterberg,Soesterberg,Netherlands
 SOF,Sofia,Sofia,Bulgaria
 SOG,Sogndal Airport,Sogndal,Norway
@@ -3547,7 +3366,6 @@ PMI,Son Sant Joan,Palma de Mallorca,Spain
 SGD,Sonderborg,Soenderborg,Denmark
 NOE,Sonderlandeplatz Norden-Norddeich,Norden,Germany
 SFJ,Sondre Stromfjord,Sondrestrom,Greenland
-SOJ,Sorkjosen Airport,\N,Norway
 SOD,Sorocaba Airport,Sorocaba,Brazil
 SRT,Soroti,Soroti,Uganda
 SRP,Sorstokken,Stord,Norway
@@ -3589,7 +3407,6 @@ PHN,St Clair Co Intl,Port Huron,United States
 RUN,St Denis Gillot,St.-denis,Reunion
 ACH,St Gallen Altenrhein,Altenrhein,Switzerland
 DOL,St Gatien,Deauville,France
-SGO,St George Airport,\N,Australia
 SGU,St George Muni,Saint George,United States
 PBV,St George,Point Barrow,United States
 YHU,St Hubert,Montreal,Canada
@@ -3619,9 +3436,7 @@ SCK,Stockton Metropolitan,Stockton,United States
 SSJ,Stokka,Sandnessjoen,Norway
 YSF,Stony Rapids Airport,Stony Rapids,Canada
 SYY,Stornoway,Stornoway,United Kingdom
-SQO,Storuman Airport,\N,Sweden
 WRO,Strachowice,Wroclaw,Poland
-SRN,Strahan Airport,\N,Australia
 GOJ,Strigino,Nizhniy Novgorod,Russia
 SOY,Stronsay Airport,Stronsay,United Kingdom
 MMX,Sturup,Malmoe,Sweden
@@ -3662,7 +3477,6 @@ PNK,Supadio,Pontianak,Indonesia
 URT,Surat Thani,Surat Thani,Thailand
 STV,Surat,Surat,India
 SGC,Surgut,Surgut,Russia
-SUG,Surigao Airport,\N,Philippines
 SKH,Surkhet,Surkhet,Nepal
 SQC,Susilo,Sintang,Indonesia
 BKK,Suvarnabhumi Intl,Bangkok,Thailand
@@ -3722,7 +3536,6 @@ TMP,Tampere Pirkkala,Tampere,Finland
 TSL,Tamuin,Tamuin,Mexico
 TMW,Tamworth,Tamworth,Australia
 CNF,Tancredo Neves Intl,Belo Horizonte,Brazil
-TDG,Tandag Airport,\N,Philippines
 TDL,Tandil,Tandil,Argentina
 TGT,Tanga,Tanga,Tanzania
 TJS,Tanjung Harapan Airport,Tanjung Selor-Borneo Island,Indonesia
@@ -3776,11 +3589,9 @@ TEB,Teterboro,Teterboro,United States
 YGB,Texada Gillies Bay Airport,Texada,Canada
 TXK,Texarkana Rgnl Webb Fld,Texarkana,United States
 BEV,Teyman,Beer-sheba,Israel
-TEZ,Tezpur Airport,\N,India
 TMK,Thamkharka,Thamkharka,Nepal
 SNW,Thandwe,Thandwe,Burma
 THG,Thangool,Biloela,Australia
-XTG,Thargomindah Airport,\N,Australia
 YQD,The Pas Airport,The Pas,Canada
 PVD,Theodore Francis Green State,Providence,United States
 TRV,Thiruvananthapuram Intl,Trivandrum,India
@@ -3819,7 +3630,6 @@ TMM,Toamasina,Toamasina,Madagascar
 SYQ,Tobias Bolanos International Airport,San Jose,Costa Rica
 PTY,Tocumen Intl,Panama City,Panama
 YAZ,Tofino,Tofino,Canada
-RAB,Tokua Airport,\N,Papua New Guinea
 TKN,Tokunoshima,Tokunoshima,Japan
 TKS,Tokushima,Tokushima,Japan
 HND,Tokyo Intl,Tokyo,Japan
@@ -3840,7 +3650,6 @@ TRF,Torp,Torp,Norway
 TOJ,Torrejon,Madrid,Spain
 TRC,Torreon Intl,Torreon,Mexico
 TOH,Torres Airstrip,Loh/Linua,Vanuatu
-TYF,Torsby Airport,\N,Sweden
 TTB,Tortoli,Tortoli,Italy
 GMR,Totegegie,Totegegie,French Polynesia
 TTJ,Tottori,Tottori,Japan
@@ -3886,7 +3695,6 @@ TCC,Tucumcari Muni,Tucumcari,United States
 TUV,Tucupita,Tucupita,Venezuela
 TUR,Tucurui,Tucurui,Brazil
 TFI,Tufi Airport,Tufi,Papua New Guinea
-TUG,Tuguegarao Airport,\N,Philippines
 YUB,Tuktoyaktuk,Tuktoyaktuk,Canada
 ZFN,Tulita,Tulita,Canada
 TUL,Tulsa Intl,Tulsa,United States
@@ -3940,9 +3748,7 @@ URJ,Uraj,Uraj,Russia
 URA,Uralsk,Uralsk,Kazakhstan
 YBE,Uranium City Airport,Uranium City,Canada
 UGC,Urgench Airport,Urgench,Uzbekistan
-OMH,Uromiyeh Airport,\N,Iran
 ATD,Uru Harbour Airport,Atoifi,Solomon Islands
-USQ,Usak Airport,\N,Turkey
 USH,Ushuaia Malvinas Argentinas,Ushuaia,Argentina
 IPN,Usiminas,Ipatinga,Brazil
 USK,Usinsk,Usinsk,Russia
@@ -3952,7 +3758,6 @@ UII,Utila Airport,Utila,Honduras
 UTK,Utirik Airport,Utirik Island,Marshall Islands
 QVY,Utti,Utti,Finland
 MCX,Uytash,Makhachkala,Russia
-UDJ,Uzhhorod International Airport,\N,Ukraine
 HKV,Uzundzhovo,Haskovo,Bulgaria
 ANU,V C Bird Intl,Antigua,Antigua and Barbuda
 VAA,Vaasa,Vaasa,Finland
@@ -3975,14 +3780,11 @@ URO,Vallee De Seine,Rouen,France
 HRL,Valley Intl,Harlingen,United States
 VNY,Van Nuys,Van Nuys,United States
 VAN,Van,Van,Turkey
-END,Vance Afb,Enid,United States
-NEV,Vance Winkworth Amory International Airport,\N,Saint Kitts and Nevis
+END,Vance Afb,Enid,United StatesNevis
 CXH,Vancouver Coal Harbour,Vancouver,Canada
-YHC,Vancouver Harbour Water Airport,\N,Canada
 YVR,Vancouver Intl,Vancouver,Canada
 VBG,Vandenberg Afb,Lompoc,United States
 VVC,Vanguardia,Villavicencio,Colombia
-VAI,Vanimo Airport,\N,Papua New Guinea
 VBV,Vanua Balavu Airport,Vanua Balavu,Fiji
 VNS,Varanasi,Varanasi,India
 VRK,Varkaus,Varkaus,Finland
@@ -4002,7 +3804,6 @@ VFA,Victoria Falls Intl,Victoria Falls,Zimbabwe
 YWH,Victoria Inner Harbour Airport,Victoria,Canada
 YYJ,Victoria Intl,Victoria,Canada
 VCT,Victoria Regional Airport,Victoria,United States
-VCD,Victoria River Downs Airport,\N,Australia
 VGO,Vigo,Vigo,Spain
 AES,Vigra,Alesund,Norway
 VGA,Vijayawada,Vijayawada,India
@@ -4015,7 +3816,6 @@ VLG,Villa Gesell,Villa Gesell,Argentina
 VRN,Villafranca,Villafranca,Italy
 VNO,Vilnius Intl,Vilnius,Lithuania
 CYO,Vilo Acuna Intl,Cayo,Cuba
-VII,Vinh Airport,\N,Vietnam
 VRC,Virac Airport,Virac,Philippines
 CPQ,Viracopos Airport,Campinas,Brazil
 VCP,Viracopos,Campinas,Brazil
@@ -4038,7 +3838,6 @@ VRY,VÃ¦rÃ¸y Heliport,VÃ¦rÃ¸y,Norway
 YWK,Wabush,Wabush,Canada
 ACT,Waco Rgnl,Waco,United States
 WTN,Waddington,Waddington,United Kingdom
-EWD,Wadi Al Dawasir Airport,\N,Saudi Arabia
 WGA,Wagga Wagga,Wagga Wagga,Australia
 MOF,Wai Oti,Maumere,Indonesia
 SWA,Wai Sha Airport,Shantou,China
@@ -4057,7 +3856,6 @@ WKA,Wanaka,Wanaka,New Zealand
 WOT,Wang An,Wang An,Taiwan
 WAG,Wanganui,Wanganui,New Zealand
 WXN,Wanxian Airport,Wanxian,China
-WBM,Wapenamanda Airport,\N,Papua New Guinea
 SYU,Warraber Island Airport,Sue Islet,Australia
 TJG,Warukin Airport,Tanjung-Borneo Island,Indonesia
 IAD,Washington Dulles Intl,Washington,United States
@@ -4119,25 +3917,19 @@ IPT,Williamsport Rgnl,Williamsport,United States
 NXX,Willow Grove Nas Jrb,Willow Grove,United States
 YIP,Willow Run,Detroit,United States
 ILM,Wilmington Intl,Wilmington,United States
-WUN,Wiluna Airport,\N,Australia
 WDH,Windhoek Hosea Kutako International Airport ,Windhoek,Namibia
-WNR,Windorah Airport,\N,Australia
 YQG,Windsor,Windsor,Canada
 INK,Winkler Co,Wink,United States
 YWG,Winnipeg Intl,Winnipeg,Canada
 YAV,Winnipeg St Andrews,Winnipeg,Canada
-WIN,Winton Airport,\N,Australia
 WPM,Wipim Airport,Wipim,Papua New Guinea
-WRZ,Wirawila Airport,\N,Sri Lanka
 WOE,Woensdrecht,Woensdrecht,Netherlands
 KLU,Woerthersee International Airport,Klagenfurt,Austria
 WJA,Woja Airport,Majuro Atoll,Marshall Islands
 GGW,Wokal Field Glasgow International Airport,Glasgow,United States
 ZWL,Wollaston Lake Airport,Wollaston Lake,Canada
-WOL,Wollongong Airport,\N,Australia
 KDI,Wolter Monginsidi,Kendari,Indonesia
 PRY,Wonderboom,Pretoria,South Africa
-WJU,Wonju Airport,\N,South Korea
 BHE,Woodbourne,Woodbourne,New Zealand
 UMR,Woomera,Woomera,Australia
 WRL,Worland Municipal Airport,Worland,United States
@@ -4178,7 +3970,6 @@ ENY,Yan'an Airport,Yan'an,China
 YNZ,Yancheng Airport,Yancheng,China
 RGN,Yangon Intl,Yangon,Burma
 YNY,Yangyang International Airport,Sokcho / Gangneung,South Korea
-YNJ,Yanji Airport,\N,China
 YAO,Yaounde Ville,Yaounde,Cameroon
 YAP,Yap Intl,Yap,Micronesia
 EJA,Yariguies,Barrancabermeja,Colombia
@@ -4217,7 +4008,6 @@ ZAH,Zahedan Intl,Zahedan,Iran
 ZAM,Zamboanga Intl,Zamboanga,Philippines
 ZMM,Zamora,Zamora,Mexico
 ZNZ,Zanzibar,Zanzibar,Tanzania
-OZH,Zaporizhzhia International Airport,\N,Ukraine
 ZAZ,Zaragoza Ab,Zaragoza,Spain
 ZAR,Zaria,Zaria,Nigeria
 DJE,Zarzis,Djerba,Tunisia
@@ -4241,7 +4031,6 @@ ZRH,Zurich,Zurich,Switzerland
 EVN,Zvartnots,Yerevan,Armenia
 AGH,Ã„ngelholm-Helsingborg Airport,Ã„ngelholm,Sweden
 IDY,ÃŽle d'Yeu Airport,ÃŽle d'Yeu,France
-ILP,ÃŽle des Pins Airport,\N,New Caledonia
 OSD,Ã–stersund Airport,Ã–stersund,Sweden
 LCJ,ÅÃ³dÅº WÅ‚adysÅ‚aw Reymont Airport,ÅÃ³dÅº,Poland
 ILZ,Å½ilina Airport,Å½ilina,Slovakia
