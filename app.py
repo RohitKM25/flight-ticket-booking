@@ -92,7 +92,7 @@ def initialize_database():
             except mysql.connector.Error as err:
                 print_colored(f'ERROR: {err.msg}', type='e')
 
-    files = ['manufacturer', 'airplane_model', 'airport', 'airliner']
+    files = ['airport', 'airliner']
     for i in files:
         with open(f"init_data\\{i}.dbinit.csv", "r", newline='') as init_file:
             content = list(csv.reader(init_file))
@@ -222,35 +222,14 @@ def admin_view():
         return False
 
 
-def admin_add_random_airplane():
-    mscur.execute('select * from airplane_model')
-    airplane_models = mscur.fetchall()
+def admin_add_random_flight():
+    mscur.execute('select * from airport')
+    airports = mscur.fetchall()
     mscur.execute('select * from airliner')
     airliners = mscur.fetchall()
 
-    id = 'VT-'+join([get_random_letter() for i in range(3)], '')
-    seats = random.randint(10, 50)*10
-    airplane_model_id = random.choice(airplane_models)['id']
-    airliner_code = random.choice(airliners)['code']
-
-    record = {'id': id, 'seats': seats,
-              'airplane_model_id': airplane_model_id, 'airliner_code': airliner_code}
-
-    tabed([record])
-    if input_colored('Add to database? ', default='y').lower() != 'y':
-        return
-    new_record('airplane', record)
-    mysqlcnn.commit()
-
-
-def admin_add_random_flight():
-    mscur.execute('select * from airplane')
-    airplanes = mscur.fetchall()
-    mscur.execute('select * from airport')
-    airports = mscur.fetchall()
-
-    airplane = random.choice(airplanes)
-    id = airplane['airliner_code'] + \
+    airplane_id = 'VT-'+join([get_random_letter() for i in range(3)], '')
+    id = random.choice(airliners)['code'] + \
         join([str(random.randint(0, 9)) for _ in range(4)], sep='')
     departure_on = datetime.datetime(2000 + random.randint(0, 99), random.randint(1, 12), random.randint(
         1, 31), random.randint(0, 23), random.randint(0, 5)*10).strftime(f'%Y-%m-%d %H:%M:00')
@@ -266,7 +245,7 @@ def admin_add_random_flight():
               'stops': stops,
               'duration': duration,
               'arrival_airport_code': arrival_airport_code,
-              'airplane_id': airplane['id']}
+              'airplane_id': airplane_id}
 
     tabed([record])
     if input_colored('Add to database? ', default='y').lower() != 'y':
@@ -352,7 +331,6 @@ commands = {
     'signout': sign_out,
     'find flights': find_flights,
     'admin add': admin_add,
-    'admin add random airplane': admin_add_random_airplane,
     'admin add random flight': admin_add_random_flight,
     'admin add random fare': admin_add_random_fare,
     'admin view': admin_view,
