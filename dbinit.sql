@@ -2,27 +2,9 @@ CREATE DATABASE flight_ticket_booking;
 
 USE flight_ticket_booking;
 
-CREATE TABLE `airplane` (
-  `id` varchar(20) PRIMARY KEY,
-  `seats` int,
-  `airplane_model_id` int,
-  `airliner_code` varchar(10)
-);
-
 CREATE TABLE `airliner` (
   `code` varchar(10) PRIMARY KEY,
   `name` varchar(50)
-);
-
-CREATE TABLE `manufacturer` (
-  `id` int PRIMARY KEY,
-  `name` varchar(30)
-);
-
-CREATE TABLE `airplane_model` (
-  `id` int PRIMARY KEY,
-  `name` varchar(50),
-  `manufacturer_id` int
 );
 
 CREATE TABLE `airport` (
@@ -67,22 +49,3 @@ CREATE TABLE `booking` (
   `fare_id` int,
   `booked_on` timestamp default now()
 );
-
-ALTER TABLE `airplane` ADD FOREIGN KEY (`airplane_model_id`) REFERENCES `airplane_model` (`id`);
-
-ALTER TABLE `airplane` ADD FOREIGN KEY (`airliner_code`) REFERENCES `airliner` (`code`);
-
-ALTER TABLE `airplane_model` ADD FOREIGN KEY (`manufacturer_id`) REFERENCES `manufacturer` (`id`);
-
-ALTER TABLE `flight` ADD FOREIGN KEY (`departure_airport_code`) REFERENCES `airport` (`code`);
-
-ALTER TABLE `flight` ADD FOREIGN KEY (`arrival_airport_code`) REFERENCES `airport` (`code`);
-
-ALTER TABLE `flight` ADD FOREIGN KEY (`airplane_id`) REFERENCES `airplane` (`id`);
-
-ALTER TABLE `fare` ADD FOREIGN KEY (`flight_id`) REFERENCES `flight` (`id`);
-
-ALTER TABLE `booking` ADD FOREIGN KEY (`user_email`) REFERENCES `user` (`email`);
-
-ALTER TABLE `booking` ADD FOREIGN KEY (`fare_id`) REFERENCES `fare` (`id`);
-
