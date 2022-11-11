@@ -4,13 +4,15 @@ USE flight_ticket_booking;
 
 CREATE TABLE `airliner` (
   `code` varchar(10) PRIMARY KEY,
-  `name` varchar(50)
+  `name` varchar(50),
+  `location` varchar(50)
 );
 
 CREATE TABLE `airport` (
   `code` varchar(10) PRIMARY KEY,
   `name` varchar(50),
-  `location` varchar(50)
+  `city ` varchar(50), 
+  `region` varchar(50)
 );
 
 CREATE TABLE `flight` (
@@ -20,7 +22,8 @@ CREATE TABLE `flight` (
   `stops` varchar(100),
   `duration` float,
   `arrival_airport_code` varchar(10),
-  `airplane_id` varchar(20)
+  `airplane_id` varchar(20),
+  `airliner_code` varchar(10)
 );
 
 CREATE TABLE `fare` (

@@ -132,6 +132,17 @@ def get_table_data(table_name, columns=None, conditions=None):
     except mysql.connector.Error as err:
         print_colored(f'ERROR: {err.msg}', type='e')
 
+
+def get_airliner_from_airliner_code(code):
+    mscur.execute('select * from airliner')
+    airliners = mscur.fetchall()
+
+    for i in airliners:
+        if i['code'] == code:
+            return i['name']
+    else:
+        return 'Unlisted'
+
 # app commands
 
 
@@ -229,7 +240,8 @@ def admin_add_random_flight():
     airliners = mscur.fetchall()
 
     airplane_id = 'VT-'+join([get_random_letter() for i in range(3)], '')
-    id = random.choice(airliners)['code'] + \
+    airliner_code = random.choice(airliners)['code']
+    id = airliner_code + \
         join([str(random.randint(0, 9)) for _ in range(4)], sep='')
     departure_on = datetime.datetime(2000 + random.randint(0, 99), random.randint(1, 12), random.randint(
         1, 31), random.randint(0, 23), random.randint(0, 5)*10).strftime(f'%Y-%m-%d %H:%M:00')
@@ -245,7 +257,8 @@ def admin_add_random_flight():
               'stops': stops,
               'duration': duration,
               'arrival_airport_code': arrival_airport_code,
-              'airplane_id': airplane_id}
+              'airplane_id': airplane_id,
+              'airliner_code': airliner_code}
 
     tabed([record])
     if input_colored('Add to database? ', default='y').lower() != 'y':
@@ -316,7 +329,14 @@ def find_flights():
                 del i['arrival_airport_code']
                 i['arrival_airport'] = j['name']
                 i['arrival_location'] = j['location']
-    tabed(flights)
+    for i in flights:
+        content = f'''
+Flight {{}}, {get_airliner_from_airliner_code(i["airliner_code"])}
+From {{}},{i["departure_airport"]} on {{}}
+To {{}},{i["arrival_airport"]}
+Duration {str(datetime.timedelta(hours=i['duration'])).split(':')[0]}h{str(datetime.timedelta(hours=i['duration'])).split(':')[1]}m.'''
+        print_colored(content, data=[['a', i["id"]], ['a', i["departure_location"]], [
+                      'a', i["departure_on"].strftime('%Y-%m-%d %H:%M:%S')], ['a', i["arrival_location"]]])
 
 
 def settings():
