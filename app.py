@@ -94,7 +94,7 @@ def initialize_database():
 
     files = ['airport', 'airliner']
     for i in files:
-        with open(f"init_data\\{i}.dbinit.csv", "r", newline='') as init_file:
+        with open(f"init_data\\{i}.dbinit.csv", "r", newline='', encoding='utf8') as init_file:
             content = list(csv.reader(init_file))
             content = [{content[0][j]:content[i][j] for j in range(
                 len(content[0]))} for i in range(1, len(content))]

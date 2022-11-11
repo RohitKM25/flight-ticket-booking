@@ -10,8 +10,8 @@ CREATE TABLE `airliner` (
 
 CREATE TABLE `airport` (
   `code` varchar(10) PRIMARY KEY,
-  `name` varchar(50),
-  `city ` varchar(50), 
+  `name` varchar(100),
+  `city` varchar(50), 
   `region` varchar(50)
 );
 
