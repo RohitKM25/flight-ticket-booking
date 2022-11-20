@@ -35,7 +35,8 @@ CREATE TABLE `fare` (
   `amount` float,
   `cancellation_fee` float,
   `max_cabin_bag_weight` int, 
-  `max_baggage_weight` float
+  `max_baggage_weight` float,
+  `meals_included` boolean
 );
 
 CREATE TABLE `user` (
@@ -50,5 +51,6 @@ CREATE TABLE `booking` (
   `id` int PRIMARY KEY auto_increment,
   `user_email` varchar(50),
   `fare_id` int,
+  `is_cancelled` boolean default false,
   `booked_on` timestamp default now()
 );
