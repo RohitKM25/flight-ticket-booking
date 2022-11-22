@@ -293,8 +293,15 @@ def initialize_database(ask=True):
 
     if check_database_exists():
         if ask:
-            if input_colored('Do you you want to delete the database and run initialization.', default='y').lower != 'y':
+            if input_colored('Do you you want to delete the database and run initialization?', default='y').lower() != 'y':
                 print_colored('Cancelled inittialization.')
+                return
+            else:
+                try:
+                    mscur.execute('drop database')
+                except mysql.connector.Error as err:
+                    print_colored(f'ERROR: {err.msg}', type='e')
+                    return
 
     with open(f"{os.path.dirname(__file__)}\\dbinit.sql", "r") as db_file:
         script = db_file.read()
@@ -304,6 +311,7 @@ def initialize_database(ask=True):
                     mscur.execute(i)
             except mysql.connector.Error as err:
                 print_colored(f'ERROR: {err.msg}', type='e')
+                return
 
     files = ['airport', 'airliner']
     for i in files:
@@ -321,6 +329,7 @@ def initialize_database(ask=True):
                     new_record(i, content[k])
             except mysql.connector.Error as err:
                 print_colored(f'ERROR: {err.msg}', type='e')
+                return
             print_colored('Loaded data into "{}".', type='s', data=[['a', i]])
     print_colored('Successfully loaded into database.', type='s')
 
@@ -570,6 +579,7 @@ def book():
         print_colored('Successfullly booked flight.', type='s')
     except mysql.connector.Error as err:
         print_colored(f'ERROR: {err.msg}', type='e')
+        return
 
 
 def my_bookings():
@@ -622,6 +632,7 @@ def cancel_booking():
         print_colored('Cancelled booking.', type='s')
     except mysql.connector.Error as err:
         print_colored(f'ERROR: {err.msg}', type='e')
+        return
 
 
 def show_help():
