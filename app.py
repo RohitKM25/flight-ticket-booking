@@ -533,31 +533,6 @@ Rs {{}}''', data=[['i' if i['total_seats'] <= i['no_of_seats_booked'] else 'a', 
         else:
             print_colored(content)
 
-#     for i in fares:
-#         available_seats = f"{i['total_seats'] - i['no_of_seats_booked']} of {i['total_seats']}" if i['total_seats'] > i['no_of_seats_booked'] else "All seats booked"
-#         if i['amount'] == min_amount and i['total_seats'] > i['no_of_seats_booked']:
-#             content = colored_str(f'''
-# {{}}
-# {i['description'].capitalize()}.
-# Available Seats: {available_seats}
-# Cabin Bag Weight: {i['max_cabin_bag_weight']}
-# Baggage Weight: {i['max_baggage_weight']}
-# Meals Included: {'Yes' if i['meals_included'] else 'No'}
-# Rs {{}}''', data=[['a', i["tag"].title()], ['s' if i["amount"] == min_amount else 'e' if i["amount"] == max_amount else 'w', str(i["amount"])]])
-#             print_colored('\n'+tabulate([[content]],
-#                                         tablefmt='grid', headers=('BEST PRICE',)))
-#         else:
-#             content = f'''
-# {{}} {'<- ALL SEATS BOOKED' if  i['total_seats'] <= i['no_of_seats_booked'] else ''}
-# {i['description'].capitalize()}.
-# Available Seats: {i['total_seats'] - (i['no_of_seats_booked'] if i['no_of_seats_booked'] else 0)} of {i['total_seats']}
-# Cabin Bag Weight: {i['max_cabin_bag_weight']}
-# Baggage Weight: {i['max_baggage_weight']}
-# Meals Included: {'Yes' if i['meals_included'] else 'No'}
-# Rs {{}}'''
-#             print_colored(content, data=[['i' if i['total_seats'] <= i['no_of_seats_booked'] else 'a', i["tag"].upper()], [
-#                           'i' if i['total_seats'] <= i['no_of_seats_booked'] else 's' if i["amount"] == min_amount else 'e' if i["amount"] == max_amount else 'w', str(i["amount"])]], type=('i' if i['total_seats'] <= i['no_of_seats_booked'] else 'd'))
-
 
 def admin_add_random_flight_repeat():
     for _ in range(int(input_colored('Number of records: '))):
