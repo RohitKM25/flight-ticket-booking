@@ -30,7 +30,7 @@ SESSION_STORAGE = {
 
 # colors for colored outputs
 FORE_COLORS = {
-    'i': cm.Fore.LIGHTWHITE_EX,
+    'i': cm.Fore.WHITE,
     'a': cm.Fore.LIGHTCYAN_EX,
     'a2': cm.Fore.CYAN,
     'w': cm.Fore.YELLOW,
@@ -91,7 +91,7 @@ def join(l, sep=''):
 def input_colored(values: str, type='d', default=None, data=None):
     print_colored((values+'(Default="{}") ' if default else values), type=type, data=(
         [['a', default]] if default and not data else (data+[['a', default]] if default and data else data)), end='')
-    print(cm.Fore.WHITE, end='')
+    print(FORE_COLORS['i'], end='')
     inp = input('')
     print(FORE_COLORS['r'], end='')
     return default if inp == '' and default else inp
@@ -113,7 +113,7 @@ def str_to_datetime(str):
 
 def input_colored_type_casted(values: str, val_type: str, type='d', data=None):
     print_colored(values, type=type, data=data, end='')
-    print(cm.Fore.WHITE, end='')
+    print(FORE_COLORS['i'], end='')
     inp = input()
     print(FORE_COLORS['r'], end='')
     val_type = str(val_type)
@@ -482,7 +482,8 @@ Arrival: {{}}{departure_date_filter_print}''', data=filters_print_data)
             flights_filtered.append(i)
 
     if len(flights_filtered) == 0:
-        print('\nNo flights matching the filters are available.', type='e')
+        print_colored(
+            '\nNo flights matching the filters are available.', type='e')
         return
     print_title('available flights')
     for i in flights_filtered:
@@ -501,37 +502,61 @@ def get_fares():
         return
 
     mscur.execute(
-        f'select * from fare where flight_id = "{flight_id}" and total_seats > (select count(*) from booking where booking.is_cancelled = false and booking.fare_id = fare.id)')
+        f'select fare.*,(select count(*) from booking where booking.is_cancelled = false and booking.fare_id = fare.id) "no_of_seats_booked" from fare where flight_id = "{flight_id}" group by fare.id')
     fares = mscur.fetchall()
 
     if len(fares) == 0:
-        print('Fares for {} are unavailable. Or the flight id entered may be incorrect.', type='e', data=[
-              ['a', flight_id]])
+        print_colored('Fares for {} are unavailable. Or the flight id entered may be incorrect.', type='e', data=[
+            ['a', flight_id]])
         return
     print_title(colored_str('Fares for flight {}', data=[['a', flight_id]]))
 
-    min_amount = min([i['amount'] for i in fares])
-    max_amount = max([i['amount'] for i in fares])
+    min_amount = min([i['amount']
+                     for i in fares if i['total_seats'] > i['no_of_seats_booked']])
+    max_amount = max([i['amount']
+                     for i in fares if i['total_seats'] > i['no_of_seats_booked']])
 
     for i in fares:
-        if i['amount'] == min_amount:
-            print('\n'+tabulate([[f'''
-{FORE_COLORS['a']}{i["tag"].title()}{FORE_COLORS['r']}
+        available_seats = f"{i['total_seats'] - i['no_of_seats_booked']} of {i['total_seats']}" if i['total_seats'] > i['no_of_seats_booked'] else "All seats booked"
+        content = colored_str(f'''
+{{}} {'<- ALL SEATS BOOKED' if  i['total_seats'] <= i['no_of_seats_booked'] else ''}
 {i['description'].capitalize()}.
+Available Seats: {available_seats}
 Cabin Bag Weight: {i['max_cabin_bag_weight']}
 Baggage Weight: {i['max_baggage_weight']}
 Meals Included: {'Yes' if i['meals_included'] else 'No'}
-Rs {FORE_COLORS['s'] if i["amount"] == min_amount else FORE_COLORS['e'] if i["amount"] == max_amount else FORE_COLORS['w']}{i["amount"]}{FORE_COLORS['r']}''']], tablefmt='grid', headers=('BEST PRICE',)))
+Rs {{}}''', data=[['i' if i['total_seats'] <= i['no_of_seats_booked'] else 'a', i["tag"].upper()], [
+            'i' if i['total_seats'] <= i['no_of_seats_booked'] else 's' if i["amount"] == min_amount else 'e' if i["amount"] == max_amount else 'w', str(i["amount"])]], type=('i' if i['total_seats'] <= i['no_of_seats_booked'] else 'd'))
+        if i['amount'] == min_amount and i['total_seats'] > i['no_of_seats_booked']:
+            print_colored(
+                '\n'+tabulate([[content]], tablefmt='grid', headers=('BEST PRICE',)))
         else:
-            content = f'''
-{{}}
-{i['description'].capitalize()}.
-Cabin Bag Weight: {i['max_cabin_bag_weight']}
-Baggage Weight: {i['max_baggage_weight']}
-Meals Included: {'Yes' if i['meals_included'] else 'No'}
-Rs {{}}'''
-            print_colored(content, data=[['a', i["tag"].title()], [
-                's' if i["amount"] == min_amount else 'e' if i["amount"] == max_amount else 'w', str(i["amount"])]])
+            print_colored(content)
+
+#     for i in fares:
+#         available_seats = f"{i['total_seats'] - i['no_of_seats_booked']} of {i['total_seats']}" if i['total_seats'] > i['no_of_seats_booked'] else "All seats booked"
+#         if i['amount'] == min_amount and i['total_seats'] > i['no_of_seats_booked']:
+#             content = colored_str(f'''
+# {{}}
+# {i['description'].capitalize()}.
+# Available Seats: {available_seats}
+# Cabin Bag Weight: {i['max_cabin_bag_weight']}
+# Baggage Weight: {i['max_baggage_weight']}
+# Meals Included: {'Yes' if i['meals_included'] else 'No'}
+# Rs {{}}''', data=[['a', i["tag"].title()], ['s' if i["amount"] == min_amount else 'e' if i["amount"] == max_amount else 'w', str(i["amount"])]])
+#             print_colored('\n'+tabulate([[content]],
+#                                         tablefmt='grid', headers=('BEST PRICE',)))
+#         else:
+#             content = f'''
+# {{}} {'<- ALL SEATS BOOKED' if  i['total_seats'] <= i['no_of_seats_booked'] else ''}
+# {i['description'].capitalize()}.
+# Available Seats: {i['total_seats'] - (i['no_of_seats_booked'] if i['no_of_seats_booked'] else 0)} of {i['total_seats']}
+# Cabin Bag Weight: {i['max_cabin_bag_weight']}
+# Baggage Weight: {i['max_baggage_weight']}
+# Meals Included: {'Yes' if i['meals_included'] else 'No'}
+# Rs {{}}'''
+#             print_colored(content, data=[['i' if i['total_seats'] <= i['no_of_seats_booked'] else 'a', i["tag"].upper()], [
+#                           'i' if i['total_seats'] <= i['no_of_seats_booked'] else 's' if i["amount"] == min_amount else 'e' if i["amount"] == max_amount else 'w', str(i["amount"])]], type=('i' if i['total_seats'] <= i['no_of_seats_booked'] else 'd'))
 
 
 def admin_add_random_flight_repeat():
@@ -555,10 +580,14 @@ def book():
 
     try:
         mscur.execute(
-            f'select * from fare where fare.tag = "{fare_tag}" and fare.flight_id = "{flight_id}"', multi=False)
+            f'select fare.*,(select count(*) from booking where booking.is_cancelled = false and booking.fare_id = fare.id) "no_of_seats_booked" from fare where fare.tag = "{fare_tag}" and fare.flight_id = "{flight_id}"', multi=False)
         fare = mscur.fetchone()
+        if fare['total_seats'] <= fare['no_of_seats_booked']:
+            print_colored('No available seats for {} of flight {}, please book another fare.', data=[
+                          ['a', fare['tag']], ['a', fare['flight_id']]], type='e')
+            return
         if input_colored('Confirm Booking: ', default='y').lower() != 'y':
-            print('Booking cancelled.', type='e')
+            print_colored('Booking cancelled.', type='e')
             return
         record = {'user_email': SESSION_STORAGE['current_user'],
                   'fare_id': fare['id'], }
@@ -580,8 +609,8 @@ def my_bookings():
     bookings = mscur.fetchall()
 
     if len(bookings) == 0:
-        print('{} has no boookings.', type='e', data=[
-              ['a', user['name']]])
+        print_colored('{} has no boookings.', type='e', data=[
+            ['a2', user['name']]])
         return
     print_title(colored_str('Bookings for {}', data=[['a', user['name']]]))
 
@@ -666,9 +695,9 @@ if LOCAL_STORAGE['mysqlconnection:password']:
 else:
     args = [input_colored('host: ', default='localhost'),
             input_colored(
-                'port: ', default='3306'),
-            input_colored('user: ', default='root'),
-            input_colored('password: ')]
+        'port: ', default='3306'),
+        input_colored('user: ', default='root'),
+        input_colored('password: ')]
 
 mysqlcnn = None
 try:
@@ -693,7 +722,7 @@ if not check_database_exists():
     print_colored(
         'Database does not exist.', type='e')
     print_colored(
-        'Initializing database.', type='i')
+        'Initializing database.')
     initialize_database(ask=False)
 
 
