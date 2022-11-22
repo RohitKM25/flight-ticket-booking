@@ -148,6 +148,7 @@ def check_database_exists():
             return False
     except mysql.connector.Error as err:
         print_colored(f'ERROR: {err.msg}', type='e')
+        return
 
 
 def get_user_by_email(email):
@@ -214,8 +215,12 @@ def get_table_data(table_name, columns=None, conditions=None):
 
 
 def get_airliner_from_airliner_code(code):
-    mscur.execute('select * from airliner')
-    airliners = mscur.fetchall()
+    try:
+        mscur.execute('select * from airliner')
+        airliners = mscur.fetchall()
+    except mysql.connector.Error as err:
+        print_colored(f'ERROR: {err.msg}', type='e')
+        return
 
     for i in airliners:
         if i['code'] == code:
@@ -225,14 +230,22 @@ def get_airliner_from_airliner_code(code):
 
 
 def get_airliner_name_from_fare_id(fare_id):
-    mscur.execute(
-        f'select airliner.name from airliner,flight,fare where fare.id = {fare_id} and flight.id = fare.flight_id and airliner.code = flight.airliner_code', multi=False)
+    try:
+        mscur.execute(
+            f'select airliner.name from airliner,flight,fare where fare.id = {fare_id} and flight.id = fare.flight_id and airliner.code = flight.airliner_code', multi=False)
+    except mysql.connector.Error as err:
+        print_colored(f'ERROR: {err.msg}', type='e')
+        return
     return mscur.fetchone()['name']
 
 
 def get_flight_data_from_fare_id(fare_id):
-    mscur.execute(
-        f'select flight.id "flight_id",flight.departure_on "flight_departure_on",dep.name "departure_airport_name",arr.name "arrival_airport_name",fare.cancellation_fee "fare_cancellation_fee", fare.tag "fare_tag" from airport dep,airport arr,flight,fare where fare.id = {fare_id} and flight.id = fare.flight_id and dep.code = flight.departure_airport_code and arr.code = flight.arrival_airport_code', multi=False)
+    try:
+        mscur.execute(
+            f'select flight.id "flight_id",flight.departure_on "flight_departure_on",dep.name "departure_airport_name",arr.name "arrival_airport_name",fare.cancellation_fee "fare_cancellation_fee", fare.tag "fare_tag" from airport dep,airport arr,flight,fare where fare.id = {fare_id} and flight.id = fare.flight_id and dep.code = flight.departure_airport_code and arr.code = flight.arrival_airport_code', multi=False)
+    except mysql.connector.Error as err:
+        print_colored(f'ERROR: {err.msg}', type='e')
+        return
     return mscur.fetchone()
 # app commands
 
@@ -376,10 +389,14 @@ def admin_view():
 
 
 def admin_add_random_flight():
-    mscur.execute('select * from airport')
-    airports = mscur.fetchall()
-    mscur.execute('select * from airliner')
-    airliners = mscur.fetchall()
+    try:
+        mscur.execute('select * from airport')
+        airports = mscur.fetchall()
+        mscur.execute('select * from airliner')
+        airliners = mscur.fetchall()
+    except mysql.connector.Error as err:
+        print_colored(f'ERROR: {err.msg}', type='e')
+        return
 
     airplane_id = 'VT-'+join([get_random_letter() for i in range(3)], '')
     airliner_code = random.choice(airliners)['code']
@@ -407,8 +424,12 @@ def admin_add_random_flight():
 
 
 def admin_add_random_fare():
-    mscur.execute('select * from flight')
-    flights = mscur.fetchall()
+    try:
+        mscur.execute('select * from flight')
+        flights = mscur.fetchall()
+    except mysql.connector.Error as err:
+        print_colored(f'ERROR: {err.msg}', type='e')
+        return
 
     flight_id = random.choice(flights)['id']
     total_seats = random.randint(5, 10)*10
@@ -510,9 +531,13 @@ def get_fares():
     if not flight_id:
         return
 
-    mscur.execute(
-        f'select fare.*,(select count(*) from booking where booking.is_cancelled = false and booking.fare_id = fare.id) "no_of_seats_booked" from fare where flight_id = "{flight_id}" group by fare.id')
-    fares = mscur.fetchall()
+    try:
+        mscur.execute(
+            f'select fare.*,(select count(*) from booking where booking.is_cancelled = false and booking.fare_id = fare.id) "no_of_seats_booked" from fare where flight_id = "{flight_id}" group by fare.id')
+        fares = mscur.fetchall()
+    except mysql.connector.Error as err:
+        print_colored(f'ERROR: {err.msg}', type='e')
+        return
 
     if len(fares) == 0:
         print_colored('Fares for {} are unavailable. Or the flight id entered may be incorrect.', type='e', data=[
@@ -589,9 +614,13 @@ def my_bookings():
 
     user = get_user_by_email(SESSION_STORAGE['current_user'])
 
-    mscur.execute(
-        f'select * from booking where user_email = "{user["email"]}" and is_cancelled = false order by booked_on desc')
-    bookings = mscur.fetchall()
+    try:
+        mscur.execute(
+            f'select * from booking where user_email = "{user["email"]}" and is_cancelled = false order by booked_on desc')
+        bookings = mscur.fetchall()
+    except mysql.connector.Error as err:
+        print_colored(f'ERROR: {err.msg}', type='e')
+        return
 
     if len(bookings) == 0:
         print_colored('{} has no boookings.', type='e', data=[
