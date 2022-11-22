@@ -311,7 +311,8 @@ def initialize_database(ask=True):
                 return
             else:
                 try:
-                    mscur.execute('drop database')
+                    mscur.execute('drop database flight_ticket_booking')
+                    mysqlcnn.commit()
                 except mysql.connector.Error as err:
                     print_colored(f'ERROR: {err.msg}', type='e')
                     return
@@ -634,11 +635,11 @@ def my_bookings():
         content = '''
 ({}) {}
 Booking for {} Flight {}
-From {} to {}
-On {}.
+From {} to {} on {}.
+Booked on {}
 Cancellation Fee: {}'''
         print_colored(content, data=[['a2', str(i)], ['a',  flight_data['fare_tag'].title()], ['a', airliner_name], ['a', flight_data['flight_id']], ['a', flight_data['departure_airport_name']], [
-                      'a', flight_data['arrival_airport_name']], ['a', flight_data['flight_departure_on'].strftime('%Y-%m-%d %H:%M')], ['e', str(flight_data['fare_cancellation_fee'])]])
+                      'a', flight_data['arrival_airport_name']], ['a', flight_data['flight_departure_on'].strftime('%Y-%m-%d %H:%M')], ['a', bookings[i]['booked_on'].strftime('%Y-%m-%d %H:%M')], ['e', str(flight_data['fare_cancellation_fee'])]])
     return bookings
 
 

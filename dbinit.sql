@@ -52,5 +52,5 @@ CREATE TABLE `booking` (
   `user_email` varchar(50),
   `fare_id` int,
   `is_cancelled` boolean default false,
-  `booked_on` timestamp default now()
+  `booked_on` datetime default now()
 );
